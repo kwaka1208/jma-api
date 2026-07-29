@@ -30,6 +30,9 @@ jobs:
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add api/latest.json
+          if [ -d api/archive ]; then
+            git add api/archive
+          fi
           if [ -f api/sent-notifs.json ]; then
             git add api/sent-notifs.json
           fi

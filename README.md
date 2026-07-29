@@ -1,7 +1,7 @@
 # jma-api
 
 気象庁防災情報 XML（PULL型）から、整理済みの JSON API を自動生成するシステムです。  
-毎分気象庁のフィードをポーリングし、新着の防災情報を取得・整理して REST API として公開します。
+GitHub Actions が 5 分ごとに気象庁のフィードをポーリングし、新着の防災情報を取得・整理して REST API として公開します。
 
 ## 特徴
 
@@ -35,6 +35,24 @@ git clone https://github.com/kwaka1208/jma-api.git
 cd jma-api
 npm install
 ```
+
+### clone 後の必須設定（latest.json の競合回避）
+
+`api/latest.json` は GitHub Actions が 5 分ごとに上書きコミットするため、ローカルで
+そのまま扱うと `git pull` / `merge` のたびに競合します。これを防ぐため、**clone 直後に
+一度だけ** 次を実行してください。
+
+```bash
+git update-index --skip-worktree api/latest.json
+```
+
+これで latest.json のローカル変更が Git に無視され、競合が発生しなくなります。
+`.gitignore` による除外は使えません（追跡済みかつリモート配信に必要なファイルのため、
+除外すると raw API が壊れます）。
+
+- この設定は**クローンごとにローカル限定**で、コミットされません。別マシンや clone し直した
+  ときは再実行が必要です。
+- 解除する場合: `git update-index --no-skip-worktree api/latest.json`
 
 ## 使用方法
 
@@ -128,7 +146,7 @@ https://raw.githubusercontent.com/kwaka1208/jma-api/main/api/archive/{YYYY-MM}/{
 
 ### Poller（`src/poller/index.js`）
 
-毎分実行される GitHub Actions から呼ばれます：
+5 分ごとに実行される GitHub Actions から呼ばれます：
 
 1. 4フィード（定時・随時・地震火山・その他）に条件付き GET
 2. 新着エントリを検出（ETag/Last-Modified で 304 Not Modified 判定）
@@ -165,7 +183,7 @@ https://raw.githubusercontent.com/kwaka1208/jma-api/main/api/archive/{YYYY-MM}/{
 ### `poll-jma.yml`
 
 ```
-毎分実行 (* * * * *)
+5分ごとに実行 (*/5 * * * *)
 1. ノード環境セットアップ
 2. npm install
 3. node scripts/github-poll.js でデータ取得
@@ -180,6 +198,11 @@ https://raw.githubusercontent.com/kwaka1208/jma-api/main/api/archive/{YYYY-MM}/{
 ```
 
 手動実行も可能（`workflow_dispatch`）。
+
+> **注意**: GitHub Actions のスケジュール実行はベストエフォートで、短間隔 cron は負荷時に
+> 遅延・間引きされます。`*/5` でも実際には数分〜数十分の遅延やスキップが起こり得ます。
+> また、リポジトリが 60 日間無活動（Actions bot のコミットは活動に含まれない）だと
+> スケジュールは自動無効化されます。確実な定期実行が必要なら外部スケジューラの併用を検討してください。
 
 ## 開発上の注意
 
