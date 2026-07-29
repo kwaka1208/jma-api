@@ -6,8 +6,6 @@ import { XMLParser } from 'fast-xml-parser';
 import { fetchFeed } from '../src/lib/feed.js';
 import { parseAtomFeed } from '../src/lib/atom.js';
 import { buildFeedJSON } from '../src/lib/json-builder.js';
-import { classifyBySeverity } from '../src/lib/severity-filter.js';
-import severityConfig from '../src/config/severity.json' with { type: 'json' };
 import crypto from 'node:crypto';
 
 const parser = new XMLParser({ ignoreAttributes: false, attributeNamePrefix: '@' });
@@ -44,15 +42,6 @@ async function main() {
       }
     }
 
-    // 全エントリを集約して分類
-    const allEntries = [];
-    for (const result of feedResults) {
-      if (result.entries) {
-        allEntries.push(...result.entries);
-      }
-    }
-    const classified = classifyBySeverity(allEntries);
-
     // 集計JSON を生成
     const batchJSON = {
       timestamp: new Date().toISOString(),
@@ -61,9 +50,6 @@ async function main() {
         totalFeeds: FEEDS.length,
         totalNewEntries: feedResults.reduce((sum, f) => sum + f.count, 0),
       },
-      immediate: classified.immediate,
-      digest: classified.digest,
-      record: classified.record,
     };
 
     // api/ フォルダに保存
@@ -104,11 +90,8 @@ async function pollFeed(feed) {
   const doc = parser.parse(response.body);
   const feedData = parseAtomFeed(doc);
 
-  // 旧体系などを除外してフィルタリング
-  const filteredEntries = filterNewFormatOnly(feedData.entries);
-
   const newEntries = [];
-  for (const entry of filteredEntries) {
+  for (const entry of feedData.entries) {
     const hash = crypto.createHash('sha1').update(entry.id).digest('hex');
     if (!seenEntries.has(hash)) {
       seenEntries.add(hash);
@@ -118,16 +101,6 @@ async function pollFeed(feed) {
 
   const feedJSON = buildFeedJSON(feed.name, newEntries);
   return feedJSON;
-}
-
-function filterNewFormatOnly(entries) {
-  const allTitles = new Set([
-    ...severityConfig.immediate.titles,
-    ...severityConfig.digest.titles,
-    ...severityConfig.record.titles,
-  ]);
-
-  return entries.filter(entry => allTitles.has(entry.title));
 }
 
 main();
