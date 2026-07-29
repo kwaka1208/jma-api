@@ -8,12 +8,12 @@ GitHub Actions で 15分ごとに自動更新。
 
 ### 最新情報
 ```
-https://raw.githubusercontent.com/your-username/emergency-alert/main/api/latest.json
+https://raw.githubusercontent.com/kwaka1208/emergency-alert/main/api/latest.json
 ```
 
 ### アーカイブ
 ```
-https://raw.githubusercontent.com/your-username/emergency-alert/main/api/archive/{YYYY-MM}/{timestamp}.json
+https://raw.githubusercontent.com/kwaka1208/emergency-alert/main/api/archive/{YYYY-MM}/{timestamp}.json
 ```
 
 ## 使用例
@@ -21,7 +21,7 @@ https://raw.githubusercontent.com/your-username/emergency-alert/main/api/archive
 ### Node.js
 ```javascript
 const response = await fetch(
-  'https://raw.githubusercontent.com/your-username/emergency-alert/main/api/latest.json'
+  'https://raw.githubusercontent.com/kwaka1208/emergency-alert/main/api/latest.json'
 );
 const data = await response.json();
 console.log(data.summary);
@@ -31,14 +31,14 @@ console.log(data.summary);
 ```python
 import requests
 
-url = 'https://raw.githubusercontent.com/your-username/emergency-alert/main/api/latest.json'
+url = 'https://raw.githubusercontent.com/kwaka1208/emergency-alert/main/api/latest.json'
 data = requests.get(url).json()
 print(data['summary'])
 ```
 
 ### cURL
 ```bash
-curl https://raw.githubusercontent.com/your-username/emergency-alert/main/api/latest.json | jq .
+curl https://raw.githubusercontent.com/kwaka1208/emergency-alert/main/api/latest.json | jq .
 ```
 
 ## JSONスキーマ

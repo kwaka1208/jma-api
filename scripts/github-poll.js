@@ -6,6 +6,7 @@ import { XMLParser } from 'fast-xml-parser';
 import { fetchFeed } from '../src/lib/feed.js';
 import { parseAtomFeed } from '../src/lib/atom.js';
 import { buildFeedJSON } from '../src/lib/json-builder.js';
+import { filterSuperseded } from '../src/lib/format-filter.js';
 import crypto from 'node:crypto';
 
 const parser = new XMLParser({ ignoreAttributes: false, attributeNamePrefix: '@' });
@@ -99,7 +100,10 @@ async function pollFeed(feed) {
     }
   }
 
-  const feedJSON = buildFeedJSON(feed.name, newEntries);
+  // 後方互換の旧形式電文を除外（本体取得前なのでダウンロード量も減る）
+  const currentEntries = filterSuperseded(newEntries);
+
+  const feedJSON = buildFeedJSON(feed.name, currentEntries);
   return feedJSON;
 }
 
