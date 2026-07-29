@@ -1,473 +1,11 @@
 {
-  "timestamp": "2026-07-29T06:27:41.256Z",
+  "timestamp": "2026-07-29T06:55:44.235Z",
   "feeds": [
     {
       "feed": "extra",
-      "timestamp": "2026-07-29T06:27:40.182Z",
-      "count": 415,
+      "timestamp": "2026-07-29T06:55:43.681Z",
+      "count": 409,
       "entries": [
-        {
-          "id": "https://www.data.jma.go.jp/developer/xml/data/20260728202410_0_VPFJ51_130000.xml",
-          "title": "府県気象解説情報",
-          "updated": "2026-07-28T20:24:10Z",
-          "link": {
-            "@type": "application/xml",
-            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260728202410_0_VPFJ51_130000.xml"
-          },
-          "summary": "",
-          "content": {
-            "#text": "【東京都気象解説情報（大雨・落雷・突風）】伊豆諸島南部では、２９日昼前にかけて、土砂災害、落雷や竜巻などの激しい突風に注意してください。",
-            "@type": "text"
-          }
-        },
-        {
-          "id": "https://www.data.jma.go.jp/developer/xml/data/20260728202411_0_VPFJ50_130000.xml",
-          "title": "府県気象情報",
-          "updated": "2026-07-28T20:24:10Z",
-          "link": {
-            "@type": "application/xml",
-            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260728202411_0_VPFJ50_130000.xml"
-          },
-          "summary": "",
-          "content": {
-            "#text": "【東京都気象解説情報（大雨・落雷・突風）】伊豆諸島南部では、２９日昼前にかけて、土砂災害、落雷や竜巻などの激しい突風に注意してください。",
-            "@type": "text"
-          }
-        },
-        {
-          "id": "https://www.data.jma.go.jp/developer/xml/data/20260728202438_0_VPWW56_060000.xml",
-          "title": "気象警報・注意報（Ｒ０６）（土砂）",
-          "updated": "2026-07-28T20:24:37Z",
-          "link": {
-            "@type": "application/xml",
-            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260728202438_0_VPWW56_060000.xml"
-          },
-          "summary": "",
-          "content": {
-            "#text": "【山形県土砂災害警報・注意報】置賜、庄内、最上では、土砂災害に注意してください。",
-            "@type": "text"
-          }
-        },
-        {
-          "id": "https://www.data.jma.go.jp/developer/xml/data/20260728202441_0_VPFJ51_310000.xml",
-          "title": "府県気象解説情報",
-          "updated": "2026-07-28T20:24:41Z",
-          "link": {
-            "@type": "application/xml",
-            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260728202441_0_VPFJ51_310000.xml"
-          },
-          "summary": "",
-          "content": {
-            "#text": "【鳥取県気象解説情報（大雨・落雷・突風）】中・西部では、当初の予想を上回る大雨となっています。２９日朝にかけて土砂災害に厳重に警戒してください。",
-            "@type": "text"
-          }
-        },
-        {
-          "id": "https://www.data.jma.go.jp/developer/xml/data/20260728202441_0_VPFJ50_310000.xml",
-          "title": "府県気象情報",
-          "updated": "2026-07-28T20:24:41Z",
-          "link": {
-            "@type": "application/xml",
-            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260728202441_0_VPFJ50_310000.xml"
-          },
-          "summary": "",
-          "content": {
-            "#text": "【鳥取県気象解説情報（大雨・落雷・突風）】中・西部では、当初の予想を上回る大雨となっています。２９日朝にかけて土砂災害に厳重に警戒してください。",
-            "@type": "text"
-          }
-        },
-        {
-          "id": "https://www.data.jma.go.jp/developer/xml/data/20260728202447_0_VPWW54_060000.xml",
-          "title": "気象警報・注意報（Ｈ２７）",
-          "updated": "2026-07-28T20:24:45Z",
-          "link": {
-            "@type": "application/xml",
-            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260728202447_0_VPWW54_060000.xml"
-          },
-          "summary": "",
-          "content": {
-            "#text": "【山形県気象警報・注意報】置賜、庄内、最上では、土砂災害に注意してください。村山、庄内では、低い土地の浸水に注意してください。山形県では、落雷に注意してください。",
-            "@type": "text"
-          }
-        },
-        {
-          "id": "https://www.data.jma.go.jp/developer/xml/data/20260728202447_0_VPWW53_060000.xml",
-          "title": "気象特別警報・警報・注意報",
-          "updated": "2026-07-28T20:24:45Z",
-          "link": {
-            "@type": "application/xml",
-            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260728202447_0_VPWW53_060000.xml"
-          },
-          "summary": "",
-          "content": {
-            "#text": "【山形県気象警報・注意報】置賜、庄内、最上では、土砂災害に注意してください。村山、庄内では、低い土地の浸水に注意してください。山形県では、落雷に注意してください。",
-            "@type": "text"
-          }
-        },
-        {
-          "id": "https://www.data.jma.go.jp/developer/xml/data/20260728202840_0_VPWW53_310000.xml",
-          "title": "気象特別警報・警報・注意報",
-          "updated": "2026-07-28T20:28:39Z",
-          "link": {
-            "@type": "application/xml",
-            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260728202840_0_VPWW53_310000.xml"
-          },
-          "summary": "",
-          "content": {
-            "#text": "【鳥取県気象警報・注意報】〈危険警報（土砂災害）〉中・西部では、土砂災害に厳重に警戒してください。",
-            "@type": "text"
-          }
-        },
-        {
-          "id": "https://www.data.jma.go.jp/developer/xml/data/20260728202840_0_VPWW54_310000.xml",
-          "title": "気象警報・注意報（Ｈ２７）",
-          "updated": "2026-07-28T20:28:39Z",
-          "link": {
-            "@type": "application/xml",
-            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260728202840_0_VPWW54_310000.xml"
-          },
-          "summary": "",
-          "content": {
-            "#text": "【鳥取県気象警報・注意報】〈危険警報（土砂災害）〉中・西部では、土砂災害に厳重に警戒してください。",
-            "@type": "text"
-          }
-        },
-        {
-          "id": "https://www.data.jma.go.jp/developer/xml/data/20260728202922_0_VPFJ50_070000.xml",
-          "title": "府県気象情報",
-          "updated": "2026-07-28T20:29:21Z",
-          "link": {
-            "@type": "application/xml",
-            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260728202922_0_VPFJ50_070000.xml"
-          },
-          "summary": "",
-          "content": {
-            "#text": "【福島県気象解説情報（大雨・落雷・降ひょう）】会津では、低気圧や暖かく湿った空気の影響により、大気の状態が不安定となる見込みです。２９日昼前にかけてと、３０日未明から夜のはじめ頃にかけて大雨による土砂災害に十分注意してください。",
-            "@type": "text"
-          }
-        },
-        {
-          "id": "https://www.data.jma.go.jp/developer/xml/data/20260728202922_0_VPFJ51_070000.xml",
-          "title": "府県気象解説情報",
-          "updated": "2026-07-28T20:29:21Z",
-          "link": {
-            "@type": "application/xml",
-            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260728202922_0_VPFJ51_070000.xml"
-          },
-          "summary": "",
-          "content": {
-            "#text": "【福島県気象解説情報（大雨・落雷・降ひょう）】会津では、低気圧や暖かく湿った空気の影響により、大気の状態が不安定となる見込みです。２９日昼前にかけてと、３０日未明から夜のはじめ頃にかけて大雨による土砂災害に十分注意してください。",
-            "@type": "text"
-          }
-        },
-        {
-          "id": "https://www.data.jma.go.jp/developer/xml/data/20260728203513_0_VPFJ51_150000.xml",
-          "title": "府県気象解説情報",
-          "updated": "2026-07-28T20:35:13Z",
-          "link": {
-            "@type": "application/xml",
-            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260728203513_0_VPFJ51_150000.xml"
-          },
-          "summary": "",
-          "content": {
-            "#text": "【新潟県気象解説情報（大雨・落雷・突風）】新潟県では、２９日昼過ぎにかけて低い土地の浸水や河川の増水、土砂災害に注意・警戒し、２９日昼前まで落雷や竜巻などの激しい突風、降ひょうに注意してください。",
-            "@type": "text"
-          }
-        },
-        {
-          "id": "https://www.data.jma.go.jp/developer/xml/data/20260728203514_0_VPFJ50_150000.xml",
-          "title": "府県気象情報",
-          "updated": "2026-07-28T20:35:13Z",
-          "link": {
-            "@type": "application/xml",
-            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260728203514_0_VPFJ50_150000.xml"
-          },
-          "summary": "",
-          "content": {
-            "#text": "【新潟県気象解説情報（大雨・落雷・突風）】新潟県では、２９日昼過ぎにかけて低い土地の浸水や河川の増水、土砂災害に注意・警戒し、２９日昼前まで落雷や竜巻などの激しい突風、降ひょうに注意してください。",
-            "@type": "text"
-          }
-        },
-        {
-          "id": "https://www.data.jma.go.jp/developer/xml/data/20260728203629_0_VPCJ51_340000.xml",
-          "title": "地方気象解説情報",
-          "updated": "2026-07-28T20:36:29Z",
-          "link": {
-            "@type": "application/xml",
-            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260728203629_0_VPCJ51_340000.xml"
-          },
-          "summary": "",
-          "content": {
-            "#text": "【中国地方気象解説情報（落雷・突風）】中国地方では、２９日夜のはじめ頃にかけて、落雷、竜巻などの激しい突風に注意してください。",
-            "@type": "text"
-          }
-        },
-        {
-          "id": "https://www.data.jma.go.jp/developer/xml/data/20260728203630_0_VPCJ50_340000.xml",
-          "title": "地方気象情報",
-          "updated": "2026-07-28T20:36:29Z",
-          "link": {
-            "@type": "application/xml",
-            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260728203630_0_VPCJ50_340000.xml"
-          },
-          "summary": "",
-          "content": {
-            "#text": "【中国地方気象解説情報（落雷・突風）】中国地方では、２９日夜のはじめ頃にかけて、落雷、竜巻などの激しい突風に注意してください。",
-            "@type": "text"
-          }
-        },
-        {
-          "id": "https://www.data.jma.go.jp/developer/xml/data/20260728204132_0_VPFJ51_340000.xml",
-          "title": "府県気象解説情報",
-          "updated": "2026-07-28T20:41:31Z",
-          "link": {
-            "@type": "application/xml",
-            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260728204132_0_VPFJ51_340000.xml"
-          },
-          "summary": "",
-          "content": {
-            "#text": "【広島県気象解説情報（落雷・突風）】広島県では、２９日夜のはじめ頃にかけて、落雷、竜巻などの激しい突風、急な強い雨に注意してください。",
-            "@type": "text"
-          }
-        },
-        {
-          "id": "https://www.data.jma.go.jp/developer/xml/data/20260728204132_0_VPFJ50_340000.xml",
-          "title": "府県気象情報",
-          "updated": "2026-07-28T20:41:31Z",
-          "link": {
-            "@type": "application/xml",
-            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260728204132_0_VPFJ50_340000.xml"
-          },
-          "summary": "",
-          "content": {
-            "#text": "【広島県気象解説情報（落雷・突風）】広島県では、２９日夜のはじめ頃にかけて、落雷、竜巻などの激しい突風、急な強い雨に注意してください。",
-            "@type": "text"
-          }
-        },
-        {
-          "id": "https://www.data.jma.go.jp/developer/xml/data/20260728204133_0_VPFJ50_330000.xml",
-          "title": "府県気象情報",
-          "updated": "2026-07-28T20:41:33Z",
-          "link": {
-            "@type": "application/xml",
-            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260728204133_0_VPFJ50_330000.xml"
-          },
-          "summary": "",
-          "content": {
-            "#text": "【岡山県気象解説情報（落雷・突風）】岡山県では、２９日夜のはじめ頃にかけて、落雷、竜巻などの激しい突風、急な強い雨に注意してください。",
-            "@type": "text"
-          }
-        },
-        {
-          "id": "https://www.data.jma.go.jp/developer/xml/data/20260728204133_0_VPFJ51_330000.xml",
-          "title": "府県気象解説情報",
-          "updated": "2026-07-28T20:41:33Z",
-          "link": {
-            "@type": "application/xml",
-            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260728204133_0_VPFJ51_330000.xml"
-          },
-          "summary": "",
-          "content": {
-            "#text": "【岡山県気象解説情報（落雷・突風）】岡山県では、２９日夜のはじめ頃にかけて、落雷、竜巻などの激しい突風、急な強い雨に注意してください。",
-            "@type": "text"
-          }
-        },
-        {
-          "id": "https://www.data.jma.go.jp/developer/xml/data/20260728204147_0_VPCJ51_270000.xml",
-          "title": "地方気象解説情報",
-          "updated": "2026-07-28T20:41:47Z",
-          "link": {
-            "@type": "application/xml",
-            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260728204147_0_VPCJ51_270000.xml"
-          },
-          "summary": "",
-          "content": {
-            "#text": "【近畿地方気象解説情報（大雨・落雷・突風）】近畿地方では、警報級の大雨となる可能性は低くなりましたが、２９日夜のはじめ頃にかけて、落雷や突風、急な強い雨に注意してください。",
-            "@type": "text"
-          }
-        },
-        {
-          "id": "https://www.data.jma.go.jp/developer/xml/data/20260728204147_0_VPCJ50_270000.xml",
-          "title": "地方気象情報",
-          "updated": "2026-07-28T20:41:47Z",
-          "link": {
-            "@type": "application/xml",
-            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260728204147_0_VPCJ50_270000.xml"
-          },
-          "summary": "",
-          "content": {
-            "#text": "【近畿地方気象解説情報（大雨・落雷・突風）】近畿地方では、警報級の大雨となる可能性は低くなりましたが、２９日夜のはじめ頃にかけて、落雷や突風、急な強い雨に注意してください。",
-            "@type": "text"
-          }
-        },
-        {
-          "id": "https://www.data.jma.go.jp/developer/xml/data/20260728204211_0_VPFJ50_320000.xml",
-          "title": "府県気象情報",
-          "updated": "2026-07-28T20:42:10Z",
-          "link": {
-            "@type": "application/xml",
-            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260728204211_0_VPFJ50_320000.xml"
-          },
-          "summary": "",
-          "content": {
-            "#text": "【島根県気象解説情報（落雷・突風）】東部と西部では、引き続き２９日夜のはじめ頃にかけて、落雷、竜巻などの激しい突風、急な強い雨に注意してください。",
-            "@type": "text"
-          }
-        },
-        {
-          "id": "https://www.data.jma.go.jp/developer/xml/data/20260728204211_0_VPFJ51_320000.xml",
-          "title": "府県気象解説情報",
-          "updated": "2026-07-28T20:42:10Z",
-          "link": {
-            "@type": "application/xml",
-            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260728204211_0_VPFJ51_320000.xml"
-          },
-          "summary": "",
-          "content": {
-            "#text": "【島根県気象解説情報（落雷・突風）】東部と西部では、引き続き２９日夜のはじめ頃にかけて、落雷、竜巻などの激しい突風、急な強い雨に注意してください。",
-            "@type": "text"
-          }
-        },
-        {
-          "id": "https://www.data.jma.go.jp/developer/xml/data/20260728204233_0_VPFJ51_290000.xml",
-          "title": "府県気象解説情報",
-          "updated": "2026-07-28T20:42:32Z",
-          "link": {
-            "@type": "application/xml",
-            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260728204233_0_VPFJ51_290000.xml"
-          },
-          "summary": "",
-          "content": {
-            "#text": "【奈良県気象解説情報（落雷・突風・降ひょう）】奈良県では、２９日夜のはじめ頃にかけて、落雷や突風、急な強い雨に注意してください。",
-            "@type": "text"
-          }
-        },
-        {
-          "id": "https://www.data.jma.go.jp/developer/xml/data/20260728204233_0_VPFJ50_290000.xml",
-          "title": "府県気象情報",
-          "updated": "2026-07-28T20:42:32Z",
-          "link": {
-            "@type": "application/xml",
-            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260728204233_0_VPFJ50_290000.xml"
-          },
-          "summary": "",
-          "content": {
-            "#text": "【奈良県気象解説情報（落雷・突風・降ひょう）】奈良県では、２９日夜のはじめ頃にかけて、落雷や突風、急な強い雨に注意してください。",
-            "@type": "text"
-          }
-        },
-        {
-          "id": "https://www.data.jma.go.jp/developer/xml/data/20260728204234_0_VPFJ50_300000.xml",
-          "title": "府県気象情報",
-          "updated": "2026-07-28T20:42:33Z",
-          "link": {
-            "@type": "application/xml",
-            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260728204234_0_VPFJ50_300000.xml"
-          },
-          "summary": "",
-          "content": {
-            "#text": "【和歌山県気象解説情報（落雷・突風・降ひょう）】和歌山県では、２９日夜のはじめ頃にかけて、落雷や突風、急な強い雨に注意してください。",
-            "@type": "text"
-          }
-        },
-        {
-          "id": "https://www.data.jma.go.jp/developer/xml/data/20260728204234_0_VPFJ51_300000.xml",
-          "title": "府県気象解説情報",
-          "updated": "2026-07-28T20:42:33Z",
-          "link": {
-            "@type": "application/xml",
-            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260728204234_0_VPFJ51_300000.xml"
-          },
-          "summary": "",
-          "content": {
-            "#text": "【和歌山県気象解説情報（落雷・突風・降ひょう）】和歌山県では、２９日夜のはじめ頃にかけて、落雷や突風、急な強い雨に注意してください。",
-            "@type": "text"
-          }
-        },
-        {
-          "id": "https://www.data.jma.go.jp/developer/xml/data/20260728204317_0_VPFJ51_250000.xml",
-          "title": "府県気象解説情報",
-          "updated": "2026-07-28T20:43:16Z",
-          "link": {
-            "@type": "application/xml",
-            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260728204317_0_VPFJ51_250000.xml"
-          },
-          "summary": "",
-          "content": {
-            "#text": "【滋賀県気象解説情報（大雨・落雷・突風）】滋賀県では、警報級の大雨となる可能性は低くなりましたが、２９日夜のはじめ頃にかけて、落雷や突風、急な強い雨に注意してください。",
-            "@type": "text"
-          }
-        },
-        {
-          "id": "https://www.data.jma.go.jp/developer/xml/data/20260728204317_0_VPFJ50_250000.xml",
-          "title": "府県気象情報",
-          "updated": "2026-07-28T20:43:16Z",
-          "link": {
-            "@type": "application/xml",
-            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260728204317_0_VPFJ50_250000.xml"
-          },
-          "summary": "",
-          "content": {
-            "#text": "【滋賀県気象解説情報（大雨・落雷・突風）】滋賀県では、警報級の大雨となる可能性は低くなりましたが、２９日夜のはじめ頃にかけて、落雷や突風、急な強い雨に注意してください。",
-            "@type": "text"
-          }
-        },
-        {
-          "id": "https://www.data.jma.go.jp/developer/xml/data/20260728204450_0_VPFJ51_280000.xml",
-          "title": "府県気象解説情報",
-          "updated": "2026-07-28T20:44:49Z",
-          "link": {
-            "@type": "application/xml",
-            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260728204450_0_VPFJ51_280000.xml"
-          },
-          "summary": "",
-          "content": {
-            "#text": "【兵庫県気象解説情報（落雷・突風・降ひょう）】兵庫県では、２９日夜のはじめ頃にかけて、落雷や突風、急な強い雨に注意してください。",
-            "@type": "text"
-          }
-        },
-        {
-          "id": "https://www.data.jma.go.jp/developer/xml/data/20260728204450_0_VPFJ50_280000.xml",
-          "title": "府県気象情報",
-          "updated": "2026-07-28T20:44:49Z",
-          "link": {
-            "@type": "application/xml",
-            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260728204450_0_VPFJ50_280000.xml"
-          },
-          "summary": "",
-          "content": {
-            "#text": "【兵庫県気象解説情報（落雷・突風・降ひょう）】兵庫県では、２９日夜のはじめ頃にかけて、落雷や突風、急な強い雨に注意してください。",
-            "@type": "text"
-          }
-        },
-        {
-          "id": "https://www.data.jma.go.jp/developer/xml/data/20260728204451_0_VPFJ51_270000.xml",
-          "title": "府県気象解説情報",
-          "updated": "2026-07-28T20:44:50Z",
-          "link": {
-            "@type": "application/xml",
-            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260728204451_0_VPFJ51_270000.xml"
-          },
-          "summary": "",
-          "content": {
-            "#text": "【大阪府気象解説情報（落雷・突風・降ひょう）】大阪府では、２９日夜のはじめ頃にかけて、落雷や突風、急な強い雨に注意してください。",
-            "@type": "text"
-          }
-        },
-        {
-          "id": "https://www.data.jma.go.jp/developer/xml/data/20260728204451_0_VPFJ50_270000.xml",
-          "title": "府県気象情報",
-          "updated": "2026-07-28T20:44:50Z",
-          "link": {
-            "@type": "application/xml",
-            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260728204451_0_VPFJ50_270000.xml"
-          },
-          "summary": "",
-          "content": {
-            "#text": "【大阪府気象解説情報（落雷・突風・降ひょう）】大阪府では、２９日夜のはじめ頃にかけて、落雷や突風、急な強い雨に注意してください。",
-            "@type": "text"
-          }
-        },
         {
           "id": "https://www.data.jma.go.jp/developer/xml/data/20260728205039_0_VPWW56_150000.xml",
           "title": "気象警報・注意報（Ｒ０６）（土砂）",
@@ -497,20 +35,6 @@
           }
         },
         {
-          "id": "https://www.data.jma.go.jp/developer/xml/data/20260728205110_0_VPWW53_150000.xml",
-          "title": "気象特別警報・警報・注意報",
-          "updated": "2026-07-28T20:51:08Z",
-          "link": {
-            "@type": "application/xml",
-            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260728205110_0_VPWW53_150000.xml"
-          },
-          "summary": "",
-          "content": {
-            "#text": "【新潟県気象警報・注意報】新潟県では、土砂災害や竜巻などの激しい突風、落雷に注意してください。下越、中越では、低い土地の浸水に注意してください。",
-            "@type": "text"
-          }
-        },
-        {
           "id": "https://www.data.jma.go.jp/developer/xml/data/20260728205110_0_VPWW54_150000.xml",
           "title": "気象警報・注意報（Ｈ２７）",
           "updated": "2026-07-28T20:51:08Z",
@@ -525,12 +49,12 @@
           }
         },
         {
-          "id": "https://www.data.jma.go.jp/developer/xml/data/20260728205126_0_VPWW53_150000.xml",
+          "id": "https://www.data.jma.go.jp/developer/xml/data/20260728205110_0_VPWW53_150000.xml",
           "title": "気象特別警報・警報・注意報",
-          "updated": "2026-07-28T20:51:25Z",
+          "updated": "2026-07-28T20:51:08Z",
           "link": {
             "@type": "application/xml",
-            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260728205126_0_VPWW53_150000.xml"
+            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260728205110_0_VPWW53_150000.xml"
           },
           "summary": "",
           "content": {
@@ -553,16 +77,16 @@
           }
         },
         {
-          "id": "https://www.data.jma.go.jp/developer/xml/data/20260728205209_0_VPCJ51_130000.xml",
-          "title": "地方気象解説情報",
-          "updated": "2026-07-28T20:52:08Z",
+          "id": "https://www.data.jma.go.jp/developer/xml/data/20260728205126_0_VPWW53_150000.xml",
+          "title": "気象特別警報・警報・注意報",
+          "updated": "2026-07-28T20:51:25Z",
           "link": {
             "@type": "application/xml",
-            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260728205209_0_VPCJ51_130000.xml"
+            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260728205126_0_VPWW53_150000.xml"
           },
           "summary": "",
           "content": {
-            "#text": "【関東甲信地方気象解説情報（大雨・落雷・突風）】伊豆諸島では、２９日昼前にかけて落雷や竜巻などの激しい突風に注意してください。",
+            "#text": "【新潟県気象警報・注意報】新潟県では、土砂災害や竜巻などの激しい突風、落雷に注意してください。下越、中越では、低い土地の浸水に注意してください。",
             "@type": "text"
           }
         },
@@ -573,6 +97,20 @@
           "link": {
             "@type": "application/xml",
             "@href": "https://www.data.jma.go.jp/developer/xml/data/20260728205209_0_VPCJ50_130000.xml"
+          },
+          "summary": "",
+          "content": {
+            "#text": "【関東甲信地方気象解説情報（大雨・落雷・突風）】伊豆諸島では、２９日昼前にかけて落雷や竜巻などの激しい突風に注意してください。",
+            "@type": "text"
+          }
+        },
+        {
+          "id": "https://www.data.jma.go.jp/developer/xml/data/20260728205209_0_VPCJ51_130000.xml",
+          "title": "地方気象解説情報",
+          "updated": "2026-07-28T20:52:08Z",
+          "link": {
+            "@type": "application/xml",
+            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260728205209_0_VPCJ51_130000.xml"
           },
           "summary": "",
           "content": {
@@ -679,12 +217,12 @@
           }
         },
         {
-          "id": "https://www.data.jma.go.jp/developer/xml/data/20260728210222_0_VPWW54_140000.xml",
-          "title": "気象警報・注意報（Ｈ２７）",
+          "id": "https://www.data.jma.go.jp/developer/xml/data/20260728210222_0_VPWW53_140000.xml",
+          "title": "気象特別警報・警報・注意報",
           "updated": "2026-07-28T21:02:20Z",
           "link": {
             "@type": "application/xml",
-            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260728210222_0_VPWW54_140000.xml"
+            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260728210222_0_VPWW53_140000.xml"
           },
           "summary": "",
           "content": {
@@ -693,12 +231,12 @@
           }
         },
         {
-          "id": "https://www.data.jma.go.jp/developer/xml/data/20260728210222_0_VPWW53_140000.xml",
-          "title": "気象特別警報・警報・注意報",
+          "id": "https://www.data.jma.go.jp/developer/xml/data/20260728210222_0_VPWW54_140000.xml",
+          "title": "気象警報・注意報（Ｈ２７）",
           "updated": "2026-07-28T21:02:20Z",
           "link": {
             "@type": "application/xml",
-            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260728210222_0_VPWW53_140000.xml"
+            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260728210222_0_VPWW54_140000.xml"
           },
           "summary": "",
           "content": {
@@ -833,12 +371,12 @@
           }
         },
         {
-          "id": "https://www.data.jma.go.jp/developer/xml/data/20260728212735_0_VPWW53_013000.xml",
-          "title": "気象特別警報・警報・注意報",
+          "id": "https://www.data.jma.go.jp/developer/xml/data/20260728212735_0_VPWW54_013000.xml",
+          "title": "気象警報・注意報（Ｈ２７）",
           "updated": "2026-07-28T21:27:34Z",
           "link": {
             "@type": "application/xml",
-            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260728212735_0_VPWW53_013000.xml"
+            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260728212735_0_VPWW54_013000.xml"
           },
           "summary": "",
           "content": {
@@ -847,12 +385,12 @@
           }
         },
         {
-          "id": "https://www.data.jma.go.jp/developer/xml/data/20260728212735_0_VPWW54_013000.xml",
-          "title": "気象警報・注意報（Ｈ２７）",
+          "id": "https://www.data.jma.go.jp/developer/xml/data/20260728212735_0_VPWW53_013000.xml",
+          "title": "気象特別警報・警報・注意報",
           "updated": "2026-07-28T21:27:34Z",
           "link": {
             "@type": "application/xml",
-            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260728212735_0_VPWW54_013000.xml"
+            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260728212735_0_VPWW53_013000.xml"
           },
           "summary": "",
           "content": {
@@ -945,12 +483,12 @@
           }
         },
         {
-          "id": "https://www.data.jma.go.jp/developer/xml/data/20260728213516_0_VPWW54_012000.xml",
-          "title": "気象警報・注意報（Ｈ２７）",
+          "id": "https://www.data.jma.go.jp/developer/xml/data/20260728213516_0_VPWW53_012000.xml",
+          "title": "気象特別警報・警報・注意報",
           "updated": "2026-07-28T21:35:15Z",
           "link": {
             "@type": "application/xml",
-            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260728213516_0_VPWW54_012000.xml"
+            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260728213516_0_VPWW53_012000.xml"
           },
           "summary": "",
           "content": {
@@ -959,12 +497,12 @@
           }
         },
         {
-          "id": "https://www.data.jma.go.jp/developer/xml/data/20260728213516_0_VPWW53_012000.xml",
-          "title": "気象特別警報・警報・注意報",
+          "id": "https://www.data.jma.go.jp/developer/xml/data/20260728213516_0_VPWW54_012000.xml",
+          "title": "気象警報・注意報（Ｈ２７）",
           "updated": "2026-07-28T21:35:15Z",
           "link": {
             "@type": "application/xml",
-            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260728213516_0_VPWW53_012000.xml"
+            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260728213516_0_VPWW54_012000.xml"
           },
           "summary": "",
           "content": {
@@ -987,12 +525,12 @@
           }
         },
         {
-          "id": "https://www.data.jma.go.jp/developer/xml/data/20260728213713_0_VPWW54_016000.xml",
-          "title": "気象警報・注意報（Ｈ２７）",
+          "id": "https://www.data.jma.go.jp/developer/xml/data/20260728213714_0_VPWW53_016000.xml",
+          "title": "気象特別警報・警報・注意報",
           "updated": "2026-07-28T21:37:12Z",
           "link": {
             "@type": "application/xml",
-            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260728213713_0_VPWW54_016000.xml"
+            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260728213714_0_VPWW53_016000.xml"
           },
           "summary": "",
           "content": {
@@ -1001,12 +539,12 @@
           }
         },
         {
-          "id": "https://www.data.jma.go.jp/developer/xml/data/20260728213714_0_VPWW53_016000.xml",
-          "title": "気象特別警報・警報・注意報",
+          "id": "https://www.data.jma.go.jp/developer/xml/data/20260728213713_0_VPWW54_016000.xml",
+          "title": "気象警報・注意報（Ｈ２７）",
           "updated": "2026-07-28T21:37:12Z",
           "link": {
             "@type": "application/xml",
-            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260728213714_0_VPWW53_016000.xml"
+            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260728213713_0_VPWW54_016000.xml"
           },
           "summary": "",
           "content": {
@@ -1127,12 +665,12 @@
           }
         },
         {
-          "id": "https://www.data.jma.go.jp/developer/xml/data/20260728215322_0_VPWW54_050000.xml",
-          "title": "気象警報・注意報（Ｈ２７）",
+          "id": "https://www.data.jma.go.jp/developer/xml/data/20260728215322_0_VPWW53_050000.xml",
+          "title": "気象特別警報・警報・注意報",
           "updated": "2026-07-28T21:53:20Z",
           "link": {
             "@type": "application/xml",
-            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260728215322_0_VPWW54_050000.xml"
+            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260728215322_0_VPWW53_050000.xml"
           },
           "summary": "",
           "content": {
@@ -1141,12 +679,12 @@
           }
         },
         {
-          "id": "https://www.data.jma.go.jp/developer/xml/data/20260728215322_0_VPWW53_050000.xml",
-          "title": "気象特別警報・警報・注意報",
+          "id": "https://www.data.jma.go.jp/developer/xml/data/20260728215322_0_VPWW54_050000.xml",
+          "title": "気象警報・注意報（Ｈ２７）",
           "updated": "2026-07-28T21:53:20Z",
           "link": {
             "@type": "application/xml",
-            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260728215322_0_VPWW53_050000.xml"
+            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260728215322_0_VPWW54_050000.xml"
           },
           "summary": "",
           "content": {
@@ -1491,12 +1029,12 @@
           }
         },
         {
-          "id": "https://www.data.jma.go.jp/developer/xml/data/20260728232811_0_VPWW53_150000.xml",
-          "title": "気象特別警報・警報・注意報",
+          "id": "https://www.data.jma.go.jp/developer/xml/data/20260728232811_0_VPWW54_150000.xml",
+          "title": "気象警報・注意報（Ｈ２７）",
           "updated": "2026-07-28T23:28:10Z",
           "link": {
             "@type": "application/xml",
-            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260728232811_0_VPWW53_150000.xml"
+            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260728232811_0_VPWW54_150000.xml"
           },
           "summary": "",
           "content": {
@@ -1505,12 +1043,12 @@
           }
         },
         {
-          "id": "https://www.data.jma.go.jp/developer/xml/data/20260728232811_0_VPWW54_150000.xml",
-          "title": "気象警報・注意報（Ｈ２７）",
+          "id": "https://www.data.jma.go.jp/developer/xml/data/20260728232811_0_VPWW53_150000.xml",
+          "title": "気象特別警報・警報・注意報",
           "updated": "2026-07-28T23:28:10Z",
           "link": {
             "@type": "application/xml",
-            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260728232811_0_VPWW54_150000.xml"
+            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260728232811_0_VPWW53_150000.xml"
           },
           "summary": "",
           "content": {
@@ -1757,12 +1295,12 @@
           }
         },
         {
-          "id": "https://www.data.jma.go.jp/developer/xml/data/20260729005334_0_VPWW54_014100.xml",
-          "title": "気象警報・注意報（Ｈ２７）",
+          "id": "https://www.data.jma.go.jp/developer/xml/data/20260729005334_0_VPWW53_014100.xml",
+          "title": "気象特別警報・警報・注意報",
           "updated": "2026-07-29T00:53:33Z",
           "link": {
             "@type": "application/xml",
-            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260729005334_0_VPWW54_014100.xml"
+            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260729005334_0_VPWW53_014100.xml"
           },
           "summary": "",
           "content": {
@@ -1771,12 +1309,12 @@
           }
         },
         {
-          "id": "https://www.data.jma.go.jp/developer/xml/data/20260729005334_0_VPWW53_014100.xml",
-          "title": "気象特別警報・警報・注意報",
+          "id": "https://www.data.jma.go.jp/developer/xml/data/20260729005334_0_VPWW54_014100.xml",
+          "title": "気象警報・注意報（Ｈ２７）",
           "updated": "2026-07-29T00:53:33Z",
           "link": {
             "@type": "application/xml",
-            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260729005334_0_VPWW53_014100.xml"
+            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260729005334_0_VPWW54_014100.xml"
           },
           "summary": "",
           "content": {
@@ -1799,20 +1337,6 @@
           }
         },
         {
-          "id": "https://www.data.jma.go.jp/developer/xml/data/20260729005448_0_VPWW53_090000.xml",
-          "title": "気象特別警報・警報・注意報",
-          "updated": "2026-07-29T00:54:47Z",
-          "link": {
-            "@type": "application/xml",
-            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260729005448_0_VPWW53_090000.xml"
-          },
-          "summary": "",
-          "content": {
-            "#text": "【栃木県気象警報・注意報】注意報を解除します。",
-            "@type": "text"
-          }
-        },
-        {
           "id": "https://www.data.jma.go.jp/developer/xml/data/20260729005448_0_VPWW54_090000.xml",
           "title": "気象警報・注意報（Ｈ２７）",
           "updated": "2026-07-29T00:54:47Z",
@@ -1827,16 +1351,16 @@
           }
         },
         {
-          "id": "https://www.data.jma.go.jp/developer/xml/data/20260729005550_0_VPWW54_310000.xml",
-          "title": "気象警報・注意報（Ｈ２７）",
-          "updated": "2026-07-29T00:55:49Z",
+          "id": "https://www.data.jma.go.jp/developer/xml/data/20260729005448_0_VPWW53_090000.xml",
+          "title": "気象特別警報・警報・注意報",
+          "updated": "2026-07-29T00:54:47Z",
           "link": {
             "@type": "application/xml",
-            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260729005550_0_VPWW54_310000.xml"
+            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260729005448_0_VPWW53_090000.xml"
           },
           "summary": "",
           "content": {
-            "#text": "【鳥取県気象警報・注意報】〈危険警報（土砂災害）〉中・西部では、土砂災害に厳重に警戒してください。",
+            "#text": "【栃木県気象警報・注意報】注意報を解除します。",
             "@type": "text"
           }
         },
@@ -1847,6 +1371,20 @@
           "link": {
             "@type": "application/xml",
             "@href": "https://www.data.jma.go.jp/developer/xml/data/20260729005550_0_VPWW53_310000.xml"
+          },
+          "summary": "",
+          "content": {
+            "#text": "【鳥取県気象警報・注意報】〈危険警報（土砂災害）〉中・西部では、土砂災害に厳重に警戒してください。",
+            "@type": "text"
+          }
+        },
+        {
+          "id": "https://www.data.jma.go.jp/developer/xml/data/20260729005550_0_VPWW54_310000.xml",
+          "title": "気象警報・注意報（Ｈ２７）",
+          "updated": "2026-07-29T00:55:49Z",
+          "link": {
+            "@type": "application/xml",
+            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260729005550_0_VPWW54_310000.xml"
           },
           "summary": "",
           "content": {
@@ -1869,12 +1407,12 @@
           }
         },
         {
-          "id": "https://www.data.jma.go.jp/developer/xml/data/20260729005620_0_VPWW53_050000.xml",
-          "title": "気象特別警報・警報・注意報",
+          "id": "https://www.data.jma.go.jp/developer/xml/data/20260729005619_0_VPWW54_050000.xml",
+          "title": "気象警報・注意報（Ｈ２７）",
           "updated": "2026-07-29T00:56:18Z",
           "link": {
             "@type": "application/xml",
-            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260729005620_0_VPWW53_050000.xml"
+            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260729005619_0_VPWW54_050000.xml"
           },
           "summary": "",
           "content": {
@@ -1883,12 +1421,12 @@
           }
         },
         {
-          "id": "https://www.data.jma.go.jp/developer/xml/data/20260729005619_0_VPWW54_050000.xml",
-          "title": "気象警報・注意報（Ｈ２７）",
+          "id": "https://www.data.jma.go.jp/developer/xml/data/20260729005620_0_VPWW53_050000.xml",
+          "title": "気象特別警報・警報・注意報",
           "updated": "2026-07-29T00:56:18Z",
           "link": {
             "@type": "application/xml",
-            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260729005619_0_VPWW54_050000.xml"
+            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260729005620_0_VPWW53_050000.xml"
           },
           "summary": "",
           "content": {
@@ -1911,12 +1449,12 @@
           }
         },
         {
-          "id": "https://www.data.jma.go.jp/developer/xml/data/20260729005651_0_VPWW53_070000.xml",
-          "title": "気象特別警報・警報・注意報",
+          "id": "https://www.data.jma.go.jp/developer/xml/data/20260729005651_0_VPWW54_070000.xml",
+          "title": "気象警報・注意報（Ｈ２７）",
           "updated": "2026-07-29T00:56:49Z",
           "link": {
             "@type": "application/xml",
-            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260729005651_0_VPWW53_070000.xml"
+            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260729005651_0_VPWW54_070000.xml"
           },
           "summary": "",
           "content": {
@@ -1925,12 +1463,12 @@
           }
         },
         {
-          "id": "https://www.data.jma.go.jp/developer/xml/data/20260729005651_0_VPWW54_070000.xml",
-          "title": "気象警報・注意報（Ｈ２７）",
+          "id": "https://www.data.jma.go.jp/developer/xml/data/20260729005651_0_VPWW53_070000.xml",
+          "title": "気象特別警報・警報・注意報",
           "updated": "2026-07-29T00:56:49Z",
           "link": {
             "@type": "application/xml",
-            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260729005651_0_VPWW54_070000.xml"
+            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260729005651_0_VPWW53_070000.xml"
           },
           "summary": "",
           "content": {
@@ -2079,12 +1617,12 @@
           }
         },
         {
-          "id": "https://www.data.jma.go.jp/developer/xml/data/20260729010348_0_VPWW54_473000.xml",
-          "title": "気象警報・注意報（Ｈ２７）",
+          "id": "https://www.data.jma.go.jp/developer/xml/data/20260729010348_0_VPWW53_473000.xml",
+          "title": "気象特別警報・警報・注意報",
           "updated": "2026-07-29T01:03:47Z",
           "link": {
             "@type": "application/xml",
-            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260729010348_0_VPWW54_473000.xml"
+            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260729010348_0_VPWW53_473000.xml"
           },
           "summary": "",
           "content": {
@@ -2093,12 +1631,12 @@
           }
         },
         {
-          "id": "https://www.data.jma.go.jp/developer/xml/data/20260729010348_0_VPWW53_473000.xml",
-          "title": "気象特別警報・警報・注意報",
+          "id": "https://www.data.jma.go.jp/developer/xml/data/20260729010348_0_VPWW54_473000.xml",
+          "title": "気象警報・注意報（Ｈ２７）",
           "updated": "2026-07-29T01:03:47Z",
           "link": {
             "@type": "application/xml",
-            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260729010348_0_VPWW53_473000.xml"
+            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260729010348_0_VPWW54_473000.xml"
           },
           "summary": "",
           "content": {
@@ -2121,12 +1659,12 @@
           }
         },
         {
-          "id": "https://www.data.jma.go.jp/developer/xml/data/20260729010429_0_VPWW53_014030.xml",
-          "title": "気象特別警報・警報・注意報",
+          "id": "https://www.data.jma.go.jp/developer/xml/data/20260729010429_0_VPWW54_014030.xml",
+          "title": "気象警報・注意報（Ｈ２７）",
           "updated": "2026-07-29T01:04:28Z",
           "link": {
             "@type": "application/xml",
-            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260729010429_0_VPWW53_014030.xml"
+            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260729010429_0_VPWW54_014030.xml"
           },
           "summary": "",
           "content": {
@@ -2135,12 +1673,12 @@
           }
         },
         {
-          "id": "https://www.data.jma.go.jp/developer/xml/data/20260729010429_0_VPWW54_014030.xml",
-          "title": "気象警報・注意報（Ｈ２７）",
+          "id": "https://www.data.jma.go.jp/developer/xml/data/20260729010429_0_VPWW53_014030.xml",
+          "title": "気象特別警報・警報・注意報",
           "updated": "2026-07-29T01:04:28Z",
           "link": {
             "@type": "application/xml",
-            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260729010429_0_VPWW54_014030.xml"
+            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260729010429_0_VPWW53_014030.xml"
           },
           "summary": "",
           "content": {
@@ -2191,20 +1729,6 @@
           }
         },
         {
-          "id": "https://www.data.jma.go.jp/developer/xml/data/20260729010640_0_VPWW56_310000.xml",
-          "title": "気象警報・注意報（Ｒ０６）（土砂）",
-          "updated": "2026-07-29T01:06:39Z",
-          "link": {
-            "@type": "application/xml",
-            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260729010640_0_VPWW56_310000.xml"
-          },
-          "summary": "",
-          "content": {
-            "#text": "【鳥取県土砂災害警報・注意報】鳥取県では、土砂災害に注意してください。",
-            "@type": "text"
-          }
-        },
-        {
           "id": "https://www.data.jma.go.jp/developer/xml/data/20260729010640_0_VPWW55_310000.xml",
           "title": "気象警報・注意報（Ｒ０６）（大雨）",
           "updated": "2026-07-29T01:06:39Z",
@@ -2215,6 +1739,20 @@
           "summary": "",
           "content": {
             "#text": "【鳥取県大雨警報・注意報】警報を解除します。",
+            "@type": "text"
+          }
+        },
+        {
+          "id": "https://www.data.jma.go.jp/developer/xml/data/20260729010640_0_VPWW56_310000.xml",
+          "title": "気象警報・注意報（Ｒ０６）（土砂）",
+          "updated": "2026-07-29T01:06:39Z",
+          "link": {
+            "@type": "application/xml",
+            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260729010640_0_VPWW56_310000.xml"
+          },
+          "summary": "",
+          "content": {
+            "#text": "【鳥取県土砂災害警報・注意報】鳥取県では、土砂災害に注意してください。",
             "@type": "text"
           }
         },
@@ -2289,20 +1827,6 @@
           }
         },
         {
-          "id": "https://www.data.jma.go.jp/developer/xml/data/20260729010655_0_VPWW56_130000.xml",
-          "title": "気象警報・注意報（Ｒ０６）（土砂）",
-          "updated": "2026-07-29T01:06:54Z",
-          "link": {
-            "@type": "application/xml",
-            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260729010655_0_VPWW56_130000.xml"
-          },
-          "summary": "",
-          "content": {
-            "#text": "【東京都土砂災害警報・注意報】危険警報を解除します。",
-            "@type": "text"
-          }
-        },
-        {
           "id": "https://www.data.jma.go.jp/developer/xml/data/20260729010655_0_VPWW55_130000.xml",
           "title": "気象警報・注意報（Ｒ０６）（大雨）",
           "updated": "2026-07-29T01:06:54Z",
@@ -2313,6 +1837,20 @@
           "summary": "",
           "content": {
             "#text": "【東京都大雨警報・注意報】注意報を解除します。",
+            "@type": "text"
+          }
+        },
+        {
+          "id": "https://www.data.jma.go.jp/developer/xml/data/20260729010655_0_VPWW56_130000.xml",
+          "title": "気象警報・注意報（Ｒ０６）（土砂）",
+          "updated": "2026-07-29T01:06:54Z",
+          "link": {
+            "@type": "application/xml",
+            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260729010655_0_VPWW56_130000.xml"
+          },
+          "summary": "",
+          "content": {
+            "#text": "【東京都土砂災害警報・注意報】危険警報を解除します。",
             "@type": "text"
           }
         },
@@ -2415,12 +1953,12 @@
           }
         },
         {
-          "id": "https://www.data.jma.go.jp/developer/xml/data/20260729010733_0_VPWW53_180000.xml",
-          "title": "気象特別警報・警報・注意報",
+          "id": "https://www.data.jma.go.jp/developer/xml/data/20260729010733_0_VPWW54_180000.xml",
+          "title": "気象警報・注意報（Ｈ２７）",
           "updated": "2026-07-29T01:07:32Z",
           "link": {
             "@type": "application/xml",
-            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260729010733_0_VPWW53_180000.xml"
+            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260729010733_0_VPWW54_180000.xml"
           },
           "summary": "",
           "content": {
@@ -2429,12 +1967,12 @@
           }
         },
         {
-          "id": "https://www.data.jma.go.jp/developer/xml/data/20260729010733_0_VPWW54_180000.xml",
-          "title": "気象警報・注意報（Ｈ２７）",
+          "id": "https://www.data.jma.go.jp/developer/xml/data/20260729010733_0_VPWW53_180000.xml",
+          "title": "気象特別警報・警報・注意報",
           "updated": "2026-07-29T01:07:32Z",
           "link": {
             "@type": "application/xml",
-            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260729010733_0_VPWW54_180000.xml"
+            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260729010733_0_VPWW53_180000.xml"
           },
           "summary": "",
           "content": {
@@ -2499,12 +2037,12 @@
           }
         },
         {
-          "id": "https://www.data.jma.go.jp/developer/xml/data/20260729010850_0_VPWW54_130000.xml",
-          "title": "気象警報・注意報（Ｈ２７）",
+          "id": "https://www.data.jma.go.jp/developer/xml/data/20260729010850_0_VPWW53_130000.xml",
+          "title": "気象特別警報・警報・注意報",
           "updated": "2026-07-29T01:08:48Z",
           "link": {
             "@type": "application/xml",
-            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260729010850_0_VPWW54_130000.xml"
+            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260729010850_0_VPWW53_130000.xml"
           },
           "summary": "",
           "content": {
@@ -2513,12 +2051,12 @@
           }
         },
         {
-          "id": "https://www.data.jma.go.jp/developer/xml/data/20260729010850_0_VPWW53_130000.xml",
-          "title": "気象特別警報・警報・注意報",
+          "id": "https://www.data.jma.go.jp/developer/xml/data/20260729010850_0_VPWW54_130000.xml",
+          "title": "気象警報・注意報（Ｈ２７）",
           "updated": "2026-07-29T01:08:48Z",
           "link": {
             "@type": "application/xml",
-            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260729010850_0_VPWW53_130000.xml"
+            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260729010850_0_VPWW54_130000.xml"
           },
           "summary": "",
           "content": {
@@ -2639,12 +2177,12 @@
           }
         },
         {
-          "id": "https://www.data.jma.go.jp/developer/xml/data/20260729011153_0_VPWW54_060000.xml",
-          "title": "気象警報・注意報（Ｈ２７）",
+          "id": "https://www.data.jma.go.jp/developer/xml/data/20260729011153_0_VPWW53_060000.xml",
+          "title": "気象特別警報・警報・注意報",
           "updated": "2026-07-29T01:11:52Z",
           "link": {
             "@type": "application/xml",
-            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260729011153_0_VPWW54_060000.xml"
+            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260729011153_0_VPWW53_060000.xml"
           },
           "summary": "",
           "content": {
@@ -2653,12 +2191,12 @@
           }
         },
         {
-          "id": "https://www.data.jma.go.jp/developer/xml/data/20260729011153_0_VPWW53_060000.xml",
-          "title": "気象特別警報・警報・注意報",
+          "id": "https://www.data.jma.go.jp/developer/xml/data/20260729011153_0_VPWW54_060000.xml",
+          "title": "気象警報・注意報（Ｈ２７）",
           "updated": "2026-07-29T01:11:52Z",
           "link": {
             "@type": "application/xml",
-            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260729011153_0_VPWW53_060000.xml"
+            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260729011153_0_VPWW54_060000.xml"
           },
           "summary": "",
           "content": {
@@ -2681,12 +2219,12 @@
           }
         },
         {
-          "id": "https://www.data.jma.go.jp/developer/xml/data/20260729011211_0_VPWW53_320000.xml",
-          "title": "気象特別警報・警報・注意報",
+          "id": "https://www.data.jma.go.jp/developer/xml/data/20260729011210_0_VPWW54_320000.xml",
+          "title": "気象警報・注意報（Ｈ２７）",
           "updated": "2026-07-29T01:12:09Z",
           "link": {
             "@type": "application/xml",
-            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260729011211_0_VPWW53_320000.xml"
+            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260729011210_0_VPWW54_320000.xml"
           },
           "summary": "",
           "content": {
@@ -2695,12 +2233,12 @@
           }
         },
         {
-          "id": "https://www.data.jma.go.jp/developer/xml/data/20260729011210_0_VPWW54_320000.xml",
-          "title": "気象警報・注意報（Ｈ２７）",
+          "id": "https://www.data.jma.go.jp/developer/xml/data/20260729011211_0_VPWW53_320000.xml",
+          "title": "気象特別警報・警報・注意報",
           "updated": "2026-07-29T01:12:09Z",
           "link": {
             "@type": "application/xml",
-            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260729011210_0_VPWW54_320000.xml"
+            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260729011211_0_VPWW53_320000.xml"
           },
           "summary": "",
           "content": {
@@ -2737,12 +2275,12 @@
           }
         },
         {
-          "id": "https://www.data.jma.go.jp/developer/xml/data/20260729011819_0_VPWW54_030000.xml",
-          "title": "気象警報・注意報（Ｈ２７）",
+          "id": "https://www.data.jma.go.jp/developer/xml/data/20260729011819_0_VPWW53_030000.xml",
+          "title": "気象特別警報・警報・注意報",
           "updated": "2026-07-29T01:18:18Z",
           "link": {
             "@type": "application/xml",
-            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260729011819_0_VPWW54_030000.xml"
+            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260729011819_0_VPWW53_030000.xml"
           },
           "summary": "",
           "content": {
@@ -2751,12 +2289,12 @@
           }
         },
         {
-          "id": "https://www.data.jma.go.jp/developer/xml/data/20260729011819_0_VPWW53_030000.xml",
-          "title": "気象特別警報・警報・注意報",
+          "id": "https://www.data.jma.go.jp/developer/xml/data/20260729011819_0_VPWW54_030000.xml",
+          "title": "気象警報・注意報（Ｈ２７）",
           "updated": "2026-07-29T01:18:18Z",
           "link": {
             "@type": "application/xml",
-            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260729011819_0_VPWW53_030000.xml"
+            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260729011819_0_VPWW54_030000.xml"
           },
           "summary": "",
           "content": {
@@ -2793,12 +2331,12 @@
           }
         },
         {
-          "id": "https://www.data.jma.go.jp/developer/xml/data/20260729011948_0_VPWW54_150000.xml",
-          "title": "気象警報・注意報（Ｈ２７）",
+          "id": "https://www.data.jma.go.jp/developer/xml/data/20260729011948_0_VPWW53_150000.xml",
+          "title": "気象特別警報・警報・注意報",
           "updated": "2026-07-29T01:19:47Z",
           "link": {
             "@type": "application/xml",
-            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260729011948_0_VPWW54_150000.xml"
+            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260729011948_0_VPWW53_150000.xml"
           },
           "summary": "",
           "content": {
@@ -2807,12 +2345,12 @@
           }
         },
         {
-          "id": "https://www.data.jma.go.jp/developer/xml/data/20260729011948_0_VPWW53_150000.xml",
-          "title": "気象特別警報・警報・注意報",
+          "id": "https://www.data.jma.go.jp/developer/xml/data/20260729011948_0_VPWW54_150000.xml",
+          "title": "気象警報・注意報（Ｈ２７）",
           "updated": "2026-07-29T01:19:47Z",
           "link": {
             "@type": "application/xml",
-            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260729011948_0_VPWW53_150000.xml"
+            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260729011948_0_VPWW54_150000.xml"
           },
           "summary": "",
           "content": {
@@ -2835,20 +2373,6 @@
           }
         },
         {
-          "id": "https://www.data.jma.go.jp/developer/xml/data/20260729012158_0_VPWW55_150000.xml",
-          "title": "気象警報・注意報（Ｒ０６）（大雨）",
-          "updated": "2026-07-29T01:21:58Z",
-          "link": {
-            "@type": "application/xml",
-            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260729012158_0_VPWW55_150000.xml"
-          },
-          "summary": "",
-          "content": {
-            "#text": "【新潟県大雨警報・注意報】下越では、低い土地の浸水や河川の増水に警戒してください。",
-            "@type": "text"
-          }
-        },
-        {
           "id": "https://www.data.jma.go.jp/developer/xml/data/20260729012158_0_VPWW56_150000.xml",
           "title": "気象警報・注意報（Ｒ０６）（土砂）",
           "updated": "2026-07-29T01:21:58Z",
@@ -2859,6 +2383,20 @@
           "summary": "",
           "content": {
             "#text": "【新潟県土砂災害警報・注意報】下越では、土砂災害に厳重に警戒してください。",
+            "@type": "text"
+          }
+        },
+        {
+          "id": "https://www.data.jma.go.jp/developer/xml/data/20260729012158_0_VPWW55_150000.xml",
+          "title": "気象警報・注意報（Ｒ０６）（大雨）",
+          "updated": "2026-07-29T01:21:58Z",
+          "link": {
+            "@type": "application/xml",
+            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260729012158_0_VPWW55_150000.xml"
+          },
+          "summary": "",
+          "content": {
+            "#text": "【新潟県大雨警報・注意報】下越では、低い土地の浸水や河川の増水に警戒してください。",
             "@type": "text"
           }
         },
@@ -2905,12 +2443,12 @@
           }
         },
         {
-          "id": "https://www.data.jma.go.jp/developer/xml/data/20260729012308_0_VPWW53_150000.xml",
-          "title": "気象特別警報・警報・注意報",
+          "id": "https://www.data.jma.go.jp/developer/xml/data/20260729012308_0_VPWW54_150000.xml",
+          "title": "気象警報・注意報（Ｈ２７）",
           "updated": "2026-07-29T01:23:07Z",
           "link": {
             "@type": "application/xml",
-            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260729012308_0_VPWW53_150000.xml"
+            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260729012308_0_VPWW54_150000.xml"
           },
           "summary": "",
           "content": {
@@ -2919,12 +2457,12 @@
           }
         },
         {
-          "id": "https://www.data.jma.go.jp/developer/xml/data/20260729012308_0_VPWW54_150000.xml",
-          "title": "気象警報・注意報（Ｈ２７）",
+          "id": "https://www.data.jma.go.jp/developer/xml/data/20260729012308_0_VPWW53_150000.xml",
+          "title": "気象特別警報・警報・注意報",
           "updated": "2026-07-29T01:23:07Z",
           "link": {
             "@type": "application/xml",
-            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260729012308_0_VPWW54_150000.xml"
+            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260729012308_0_VPWW53_150000.xml"
           },
           "summary": "",
           "content": {
@@ -2947,12 +2485,12 @@
           }
         },
         {
-          "id": "https://www.data.jma.go.jp/developer/xml/data/20260729012437_0_VPWW53_160000.xml",
-          "title": "気象特別警報・警報・注意報",
+          "id": "https://www.data.jma.go.jp/developer/xml/data/20260729012437_0_VPWW54_160000.xml",
+          "title": "気象警報・注意報（Ｈ２７）",
           "updated": "2026-07-29T01:24:36Z",
           "link": {
             "@type": "application/xml",
-            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260729012437_0_VPWW53_160000.xml"
+            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260729012437_0_VPWW54_160000.xml"
           },
           "summary": "",
           "content": {
@@ -2961,12 +2499,12 @@
           }
         },
         {
-          "id": "https://www.data.jma.go.jp/developer/xml/data/20260729012437_0_VPWW54_160000.xml",
-          "title": "気象警報・注意報（Ｈ２７）",
+          "id": "https://www.data.jma.go.jp/developer/xml/data/20260729012437_0_VPWW53_160000.xml",
+          "title": "気象特別警報・警報・注意報",
           "updated": "2026-07-29T01:24:36Z",
           "link": {
             "@type": "application/xml",
-            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260729012437_0_VPWW54_160000.xml"
+            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260729012437_0_VPWW53_160000.xml"
           },
           "summary": "",
           "content": {
@@ -3017,12 +2555,12 @@
           }
         },
         {
-          "id": "https://www.data.jma.go.jp/developer/xml/data/20260729014226_0_VPCJ50_130000.xml",
-          "title": "地方気象情報",
+          "id": "https://www.data.jma.go.jp/developer/xml/data/20260729014226_0_VPCJ51_130000.xml",
+          "title": "地方気象解説情報",
           "updated": "2026-07-29T01:42:26Z",
           "link": {
             "@type": "application/xml",
-            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260729014226_0_VPCJ50_130000.xml"
+            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260729014226_0_VPCJ51_130000.xml"
           },
           "summary": "",
           "content": {
@@ -3031,12 +2569,12 @@
           }
         },
         {
-          "id": "https://www.data.jma.go.jp/developer/xml/data/20260729014226_0_VPCJ51_130000.xml",
-          "title": "地方気象解説情報",
+          "id": "https://www.data.jma.go.jp/developer/xml/data/20260729014226_0_VPCJ50_130000.xml",
+          "title": "地方気象情報",
           "updated": "2026-07-29T01:42:26Z",
           "link": {
             "@type": "application/xml",
-            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260729014226_0_VPCJ51_130000.xml"
+            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260729014226_0_VPCJ50_130000.xml"
           },
           "summary": "",
           "content": {
@@ -3101,20 +2639,6 @@
           }
         },
         {
-          "id": "https://www.data.jma.go.jp/developer/xml/data/20260729015741_0_VPWW53_014100.xml",
-          "title": "気象特別警報・警報・注意報",
-          "updated": "2026-07-29T01:57:40Z",
-          "link": {
-            "@type": "application/xml",
-            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260729015741_0_VPWW53_014100.xml"
-          },
-          "summary": "",
-          "content": {
-            "#text": "【釧路・根室地方気象警報・注意報】釧路・根室地方では、濃霧による視程障害に注意してください。",
-            "@type": "text"
-          }
-        },
-        {
           "id": "https://www.data.jma.go.jp/developer/xml/data/20260729015741_0_VPWW54_014100.xml",
           "title": "気象警報・注意報（Ｈ２７）",
           "updated": "2026-07-29T01:57:40Z",
@@ -3129,16 +2653,16 @@
           }
         },
         {
-          "id": "https://www.data.jma.go.jp/developer/xml/data/20260729015742_0_VPWW53_015000.xml",
+          "id": "https://www.data.jma.go.jp/developer/xml/data/20260729015741_0_VPWW53_014100.xml",
           "title": "気象特別警報・警報・注意報",
-          "updated": "2026-07-29T01:57:41Z",
+          "updated": "2026-07-29T01:57:40Z",
           "link": {
             "@type": "application/xml",
-            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260729015742_0_VPWW53_015000.xml"
+            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260729015741_0_VPWW53_014100.xml"
           },
           "summary": "",
           "content": {
-            "#text": "【胆振・日高地方気象警報・注意報】胆振・日高地方では、濃霧による視程障害に注意してください。",
+            "#text": "【釧路・根室地方気象警報・注意報】釧路・根室地方では、濃霧による視程障害に注意してください。",
             "@type": "text"
           }
         },
@@ -3157,16 +2681,16 @@
           }
         },
         {
-          "id": "https://www.data.jma.go.jp/developer/xml/data/20260729015743_0_VPWW53_017000.xml",
+          "id": "https://www.data.jma.go.jp/developer/xml/data/20260729015742_0_VPWW53_015000.xml",
           "title": "気象特別警報・警報・注意報",
-          "updated": "2026-07-29T01:57:42Z",
+          "updated": "2026-07-29T01:57:41Z",
           "link": {
             "@type": "application/xml",
-            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260729015743_0_VPWW53_017000.xml"
+            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260729015742_0_VPWW53_015000.xml"
           },
           "summary": "",
           "content": {
-            "#text": "【渡島・檜山地方気象警報・注意報】渡島地方では、濃霧による視程障害に注意してください。",
+            "#text": "【胆振・日高地方気象警報・注意報】胆振・日高地方では、濃霧による視程障害に注意してください。",
             "@type": "text"
           }
         },
@@ -3177,6 +2701,20 @@
           "link": {
             "@type": "application/xml",
             "@href": "https://www.data.jma.go.jp/developer/xml/data/20260729015743_0_VPWW54_017000.xml"
+          },
+          "summary": "",
+          "content": {
+            "#text": "【渡島・檜山地方気象警報・注意報】渡島地方では、濃霧による視程障害に注意してください。",
+            "@type": "text"
+          }
+        },
+        {
+          "id": "https://www.data.jma.go.jp/developer/xml/data/20260729015743_0_VPWW53_017000.xml",
+          "title": "気象特別警報・警報・注意報",
+          "updated": "2026-07-29T01:57:42Z",
+          "link": {
+            "@type": "application/xml",
+            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260729015743_0_VPWW53_017000.xml"
           },
           "summary": "",
           "content": {
@@ -3213,12 +2751,12 @@
           }
         },
         {
-          "id": "https://www.data.jma.go.jp/developer/xml/data/20260729015746_0_VPWW54_050000.xml",
-          "title": "気象警報・注意報（Ｈ２７）",
+          "id": "https://www.data.jma.go.jp/developer/xml/data/20260729015746_0_VPWW53_050000.xml",
+          "title": "気象特別警報・警報・注意報",
           "updated": "2026-07-29T01:57:45Z",
           "link": {
             "@type": "application/xml",
-            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260729015746_0_VPWW54_050000.xml"
+            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260729015746_0_VPWW53_050000.xml"
           },
           "summary": "",
           "content": {
@@ -3227,12 +2765,12 @@
           }
         },
         {
-          "id": "https://www.data.jma.go.jp/developer/xml/data/20260729015746_0_VPWW53_050000.xml",
-          "title": "気象特別警報・警報・注意報",
+          "id": "https://www.data.jma.go.jp/developer/xml/data/20260729015746_0_VPWW54_050000.xml",
+          "title": "気象警報・注意報（Ｈ２７）",
           "updated": "2026-07-29T01:57:45Z",
           "link": {
             "@type": "application/xml",
-            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260729015746_0_VPWW53_050000.xml"
+            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260729015746_0_VPWW54_050000.xml"
           },
           "summary": "",
           "content": {
@@ -3353,12 +2891,12 @@
           }
         },
         {
-          "id": "https://www.data.jma.go.jp/developer/xml/data/20260729015753_0_VPWW54_150000.xml",
-          "title": "気象警報・注意報（Ｈ２７）",
+          "id": "https://www.data.jma.go.jp/developer/xml/data/20260729015753_0_VPWW53_150000.xml",
+          "title": "気象特別警報・警報・注意報",
           "updated": "2026-07-29T01:57:52Z",
           "link": {
             "@type": "application/xml",
-            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260729015753_0_VPWW54_150000.xml"
+            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260729015753_0_VPWW53_150000.xml"
           },
           "summary": "",
           "content": {
@@ -3367,12 +2905,12 @@
           }
         },
         {
-          "id": "https://www.data.jma.go.jp/developer/xml/data/20260729015753_0_VPWW53_150000.xml",
-          "title": "気象特別警報・警報・注意報",
+          "id": "https://www.data.jma.go.jp/developer/xml/data/20260729015753_0_VPWW54_150000.xml",
+          "title": "気象警報・注意報（Ｈ２７）",
           "updated": "2026-07-29T01:57:52Z",
           "link": {
             "@type": "application/xml",
-            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260729015753_0_VPWW53_150000.xml"
+            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260729015753_0_VPWW54_150000.xml"
           },
           "summary": "",
           "content": {
@@ -3409,12 +2947,12 @@
           }
         },
         {
-          "id": "https://www.data.jma.go.jp/developer/xml/data/20260729015803_0_VPWW54_130000.xml",
-          "title": "気象警報・注意報（Ｈ２７）",
+          "id": "https://www.data.jma.go.jp/developer/xml/data/20260729015803_0_VPWW53_130000.xml",
+          "title": "気象特別警報・警報・注意報",
           "updated": "2026-07-29T01:58:02Z",
           "link": {
             "@type": "application/xml",
-            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260729015803_0_VPWW54_130000.xml"
+            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260729015803_0_VPWW53_130000.xml"
           },
           "summary": "",
           "content": {
@@ -3423,12 +2961,12 @@
           }
         },
         {
-          "id": "https://www.data.jma.go.jp/developer/xml/data/20260729015803_0_VPWW53_130000.xml",
-          "title": "気象特別警報・警報・注意報",
+          "id": "https://www.data.jma.go.jp/developer/xml/data/20260729015803_0_VPWW54_130000.xml",
+          "title": "気象警報・注意報（Ｈ２７）",
           "updated": "2026-07-29T01:58:02Z",
           "link": {
             "@type": "application/xml",
-            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260729015803_0_VPWW53_130000.xml"
+            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260729015803_0_VPWW54_130000.xml"
           },
           "summary": "",
           "content": {
@@ -3577,12 +3115,12 @@
           }
         },
         {
-          "id": "https://www.data.jma.go.jp/developer/xml/data/20260729015810_0_VPWW54_340000.xml",
-          "title": "気象警報・注意報（Ｈ２７）",
+          "id": "https://www.data.jma.go.jp/developer/xml/data/20260729015810_0_VPWW53_340000.xml",
+          "title": "気象特別警報・警報・注意報",
           "updated": "2026-07-29T01:58:09Z",
           "link": {
             "@type": "application/xml",
-            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260729015810_0_VPWW54_340000.xml"
+            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260729015810_0_VPWW53_340000.xml"
           },
           "summary": "",
           "content": {
@@ -3591,12 +3129,12 @@
           }
         },
         {
-          "id": "https://www.data.jma.go.jp/developer/xml/data/20260729015810_0_VPWW53_340000.xml",
-          "title": "気象特別警報・警報・注意報",
+          "id": "https://www.data.jma.go.jp/developer/xml/data/20260729015810_0_VPWW54_340000.xml",
+          "title": "気象警報・注意報（Ｈ２７）",
           "updated": "2026-07-29T01:58:09Z",
           "link": {
             "@type": "application/xml",
-            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260729015810_0_VPWW53_340000.xml"
+            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260729015810_0_VPWW54_340000.xml"
           },
           "summary": "",
           "content": {
@@ -3633,20 +3171,6 @@
           }
         },
         {
-          "id": "https://www.data.jma.go.jp/developer/xml/data/20260729015813_0_VPWW53_280000.xml",
-          "title": "気象特別警報・警報・注意報",
-          "updated": "2026-07-29T01:58:11Z",
-          "link": {
-            "@type": "application/xml",
-            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260729015813_0_VPWW53_280000.xml"
-          },
-          "summary": "",
-          "content": {
-            "#text": "【兵庫県気象警報・注意報】兵庫県では、落雷に注意してください。",
-            "@type": "text"
-          }
-        },
-        {
           "id": "https://www.data.jma.go.jp/developer/xml/data/20260729015813_0_VPWW54_280000.xml",
           "title": "気象警報・注意報（Ｈ２７）",
           "updated": "2026-07-29T01:58:11Z",
@@ -3661,16 +3185,16 @@
           }
         },
         {
-          "id": "https://www.data.jma.go.jp/developer/xml/data/20260729015814_0_VPWW54_270000.xml",
-          "title": "気象警報・注意報（Ｈ２７）",
-          "updated": "2026-07-29T01:58:13Z",
+          "id": "https://www.data.jma.go.jp/developer/xml/data/20260729015813_0_VPWW53_280000.xml",
+          "title": "気象特別警報・警報・注意報",
+          "updated": "2026-07-29T01:58:11Z",
           "link": {
             "@type": "application/xml",
-            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260729015814_0_VPWW54_270000.xml"
+            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260729015813_0_VPWW53_280000.xml"
           },
           "summary": "",
           "content": {
-            "#text": "【大阪府気象警報・注意報】大阪府では、落雷に注意してください。",
+            "#text": "【兵庫県気象警報・注意報】兵庫県では、落雷に注意してください。",
             "@type": "text"
           }
         },
@@ -3689,16 +3213,16 @@
           }
         },
         {
-          "id": "https://www.data.jma.go.jp/developer/xml/data/20260729015816_0_VPWW54_300000.xml",
+          "id": "https://www.data.jma.go.jp/developer/xml/data/20260729015814_0_VPWW54_270000.xml",
           "title": "気象警報・注意報（Ｈ２７）",
-          "updated": "2026-07-29T01:58:14Z",
+          "updated": "2026-07-29T01:58:13Z",
           "link": {
             "@type": "application/xml",
-            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260729015816_0_VPWW54_300000.xml"
+            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260729015814_0_VPWW54_270000.xml"
           },
           "summary": "",
           "content": {
-            "#text": "【和歌山県気象警報・注意報】和歌山県では、落雷に注意してください。",
+            "#text": "【大阪府気象警報・注意報】大阪府では、落雷に注意してください。",
             "@type": "text"
           }
         },
@@ -3709,6 +3233,20 @@
           "link": {
             "@type": "application/xml",
             "@href": "https://www.data.jma.go.jp/developer/xml/data/20260729015816_0_VPWW53_300000.xml"
+          },
+          "summary": "",
+          "content": {
+            "#text": "【和歌山県気象警報・注意報】和歌山県では、落雷に注意してください。",
+            "@type": "text"
+          }
+        },
+        {
+          "id": "https://www.data.jma.go.jp/developer/xml/data/20260729015816_0_VPWW54_300000.xml",
+          "title": "気象警報・注意報（Ｈ２７）",
+          "updated": "2026-07-29T01:58:14Z",
+          "link": {
+            "@type": "application/xml",
+            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260729015816_0_VPWW54_300000.xml"
           },
           "summary": "",
           "content": {
@@ -3773,20 +3311,6 @@
           }
         },
         {
-          "id": "https://www.data.jma.go.jp/developer/xml/data/20260729015820_0_VPWW53_440000.xml",
-          "title": "気象特別警報・警報・注意報",
-          "updated": "2026-07-29T01:58:19Z",
-          "link": {
-            "@type": "application/xml",
-            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260729015820_0_VPWW53_440000.xml"
-          },
-          "summary": "",
-          "content": {
-            "#text": "【大分県気象警報・注意報】北部では、落雷に注意してください。",
-            "@type": "text"
-          }
-        },
-        {
           "id": "https://www.data.jma.go.jp/developer/xml/data/20260729015820_0_VPWW54_440000.xml",
           "title": "気象警報・注意報（Ｈ２７）",
           "updated": "2026-07-29T01:58:19Z",
@@ -3801,16 +3325,16 @@
           }
         },
         {
-          "id": "https://www.data.jma.go.jp/developer/xml/data/20260729015823_0_VPWW53_380000.xml",
+          "id": "https://www.data.jma.go.jp/developer/xml/data/20260729015820_0_VPWW53_440000.xml",
           "title": "気象特別警報・警報・注意報",
-          "updated": "2026-07-29T01:58:22Z",
+          "updated": "2026-07-29T01:58:19Z",
           "link": {
             "@type": "application/xml",
-            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260729015823_0_VPWW53_380000.xml"
+            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260729015820_0_VPWW53_440000.xml"
           },
           "summary": "",
           "content": {
-            "#text": "【愛媛県気象警報・注意報】愛媛県では、竜巻などの激しい突風や落雷に注意してください。",
+            "#text": "【大分県気象警報・注意報】北部では、落雷に注意してください。",
             "@type": "text"
           }
         },
@@ -3821,6 +3345,20 @@
           "link": {
             "@type": "application/xml",
             "@href": "https://www.data.jma.go.jp/developer/xml/data/20260729015823_0_VPWW54_380000.xml"
+          },
+          "summary": "",
+          "content": {
+            "#text": "【愛媛県気象警報・注意報】愛媛県では、竜巻などの激しい突風や落雷に注意してください。",
+            "@type": "text"
+          }
+        },
+        {
+          "id": "https://www.data.jma.go.jp/developer/xml/data/20260729015823_0_VPWW53_380000.xml",
+          "title": "気象特別警報・警報・注意報",
+          "updated": "2026-07-29T01:58:22Z",
+          "link": {
+            "@type": "application/xml",
+            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260729015823_0_VPWW53_380000.xml"
           },
           "summary": "",
           "content": {
@@ -3885,12 +3423,12 @@
           }
         },
         {
-          "id": "https://www.data.jma.go.jp/developer/xml/data/20260729015826_0_VPWW54_360000.xml",
-          "title": "気象警報・注意報（Ｈ２７）",
+          "id": "https://www.data.jma.go.jp/developer/xml/data/20260729015826_0_VPWW53_360000.xml",
+          "title": "気象特別警報・警報・注意報",
           "updated": "2026-07-29T01:58:25Z",
           "link": {
             "@type": "application/xml",
-            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260729015826_0_VPWW54_360000.xml"
+            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260729015826_0_VPWW53_360000.xml"
           },
           "summary": "",
           "content": {
@@ -3899,12 +3437,12 @@
           }
         },
         {
-          "id": "https://www.data.jma.go.jp/developer/xml/data/20260729015826_0_VPWW53_360000.xml",
-          "title": "気象特別警報・警報・注意報",
+          "id": "https://www.data.jma.go.jp/developer/xml/data/20260729015826_0_VPWW54_360000.xml",
+          "title": "気象警報・注意報（Ｈ２７）",
           "updated": "2026-07-29T01:58:25Z",
           "link": {
             "@type": "application/xml",
-            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260729015826_0_VPWW53_360000.xml"
+            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260729015826_0_VPWW54_360000.xml"
           },
           "summary": "",
           "content": {
@@ -3997,12 +3535,12 @@
           }
         },
         {
-          "id": "https://www.data.jma.go.jp/developer/xml/data/20260729015830_0_VPWW53_472000.xml",
-          "title": "気象特別警報・警報・注意報",
+          "id": "https://www.data.jma.go.jp/developer/xml/data/20260729015830_0_VPWW54_472000.xml",
+          "title": "気象警報・注意報（Ｈ２７）",
           "updated": "2026-07-29T01:58:30Z",
           "link": {
             "@type": "application/xml",
-            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260729015830_0_VPWW53_472000.xml"
+            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260729015830_0_VPWW54_472000.xml"
           },
           "summary": "",
           "content": {
@@ -4011,12 +3549,12 @@
           }
         },
         {
-          "id": "https://www.data.jma.go.jp/developer/xml/data/20260729015830_0_VPWW54_472000.xml",
-          "title": "気象警報・注意報（Ｈ２７）",
+          "id": "https://www.data.jma.go.jp/developer/xml/data/20260729015830_0_VPWW53_472000.xml",
+          "title": "気象特別警報・警報・注意報",
           "updated": "2026-07-29T01:58:30Z",
           "link": {
             "@type": "application/xml",
-            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260729015830_0_VPWW54_472000.xml"
+            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260729015830_0_VPWW53_472000.xml"
           },
           "summary": "",
           "content": {
@@ -4095,20 +3633,6 @@
           }
         },
         {
-          "id": "https://www.data.jma.go.jp/developer/xml/data/20260729020038_0_VPFJ51_260000.xml",
-          "title": "府県気象解説情報",
-          "updated": "2026-07-29T02:00:37Z",
-          "link": {
-            "@type": "application/xml",
-            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260729020038_0_VPFJ51_260000.xml"
-          },
-          "summary": "",
-          "content": {
-            "#text": "【京都府気象解説情報（高い潮位）】北部沿岸の海岸や河口付近の低い土地では、３０日から８月１日頃にかけて、満潮の時間帯を中心に、高い潮位による浸水や冠水に注意してください。",
-            "@type": "text"
-          }
-        },
-        {
           "id": "https://www.data.jma.go.jp/developer/xml/data/20260729020038_0_VPFJ50_260000.xml",
           "title": "府県気象情報",
           "updated": "2026-07-29T02:00:37Z",
@@ -4123,16 +3647,16 @@
           }
         },
         {
-          "id": "https://www.data.jma.go.jp/developer/xml/data/20260729020049_0_VPFJ50_070000.xml",
-          "title": "府県気象情報",
-          "updated": "2026-07-29T02:00:49Z",
+          "id": "https://www.data.jma.go.jp/developer/xml/data/20260729020038_0_VPFJ51_260000.xml",
+          "title": "府県気象解説情報",
+          "updated": "2026-07-29T02:00:37Z",
           "link": {
             "@type": "application/xml",
-            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260729020049_0_VPFJ50_070000.xml"
+            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260729020038_0_VPFJ51_260000.xml"
           },
           "summary": "",
           "content": {
-            "#text": "【福島県気象解説情報（大雨・落雷・突風）】会津では、上空の寒気や暖かく湿った空気の影響により、大気の状態が非常に不安定となる見込みです。３０日未明から夜のはじめ頃にかけて大雨による土砂災害に十分注意してください。また、竜巻などの激しい突風や落雷、降ひょうに注意してください。",
+            "#text": "【京都府気象解説情報（高い潮位）】北部沿岸の海岸や河口付近の低い土地では、３０日から８月１日頃にかけて、満潮の時間帯を中心に、高い潮位による浸水や冠水に注意してください。",
             "@type": "text"
           }
         },
@@ -4151,16 +3675,16 @@
           }
         },
         {
-          "id": "https://www.data.jma.go.jp/developer/xml/data/20260729020109_0_VPFJ51_050000.xml",
-          "title": "府県気象解説情報",
-          "updated": "2026-07-29T02:01:08Z",
+          "id": "https://www.data.jma.go.jp/developer/xml/data/20260729020049_0_VPFJ50_070000.xml",
+          "title": "府県気象情報",
+          "updated": "2026-07-29T02:00:49Z",
           "link": {
             "@type": "application/xml",
-            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260729020109_0_VPFJ51_050000.xml"
+            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260729020049_0_VPFJ50_070000.xml"
           },
           "summary": "",
           "content": {
-            "#text": "【秋田県気象解説情報（大雨・落雷・突風）】秋田県では、低気圧や暖かく湿った空気の影響により、大気の状態が非常に不安定となるため、大雨となる所がある見込みです。３０日未明から夜のはじめ頃にかけて、土砂災害や低い土地の浸水、河川の増水に十分注意してください。また、竜巻などの激しい突風や落雷、降ひょうに注意してください。",
+            "#text": "【福島県気象解説情報（大雨・落雷・突風）】会津では、上空の寒気や暖かく湿った空気の影響により、大気の状態が非常に不安定となる見込みです。３０日未明から夜のはじめ頃にかけて大雨による土砂災害に十分注意してください。また、竜巻などの激しい突風や落雷、降ひょうに注意してください。",
             "@type": "text"
           }
         },
@@ -4171,6 +3695,20 @@
           "link": {
             "@type": "application/xml",
             "@href": "https://www.data.jma.go.jp/developer/xml/data/20260729020109_0_VPFJ50_050000.xml"
+          },
+          "summary": "",
+          "content": {
+            "#text": "【秋田県気象解説情報（大雨・落雷・突風）】秋田県では、低気圧や暖かく湿った空気の影響により、大気の状態が非常に不安定となるため、大雨となる所がある見込みです。３０日未明から夜のはじめ頃にかけて、土砂災害や低い土地の浸水、河川の増水に十分注意してください。また、竜巻などの激しい突風や落雷、降ひょうに注意してください。",
+            "@type": "text"
+          }
+        },
+        {
+          "id": "https://www.data.jma.go.jp/developer/xml/data/20260729020109_0_VPFJ51_050000.xml",
+          "title": "府県気象解説情報",
+          "updated": "2026-07-29T02:01:08Z",
+          "link": {
+            "@type": "application/xml",
+            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260729020109_0_VPFJ51_050000.xml"
           },
           "summary": "",
           "content": {
@@ -4347,12 +3885,12 @@
           }
         },
         {
-          "id": "https://www.data.jma.go.jp/developer/xml/data/20260729021013_0_VPFJ51_170000.xml",
-          "title": "府県気象解説情報",
+          "id": "https://www.data.jma.go.jp/developer/xml/data/20260729021013_0_VPFJ50_170000.xml",
+          "title": "府県気象情報",
           "updated": "2026-07-29T02:10:13Z",
           "link": {
             "@type": "application/xml",
-            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260729021013_0_VPFJ51_170000.xml"
+            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260729021013_0_VPFJ50_170000.xml"
           },
           "summary": "",
           "content": {
@@ -4361,12 +3899,12 @@
           }
         },
         {
-          "id": "https://www.data.jma.go.jp/developer/xml/data/20260729021013_0_VPFJ50_170000.xml",
-          "title": "府県気象情報",
+          "id": "https://www.data.jma.go.jp/developer/xml/data/20260729021013_0_VPFJ51_170000.xml",
+          "title": "府県気象解説情報",
           "updated": "2026-07-29T02:10:13Z",
           "link": {
             "@type": "application/xml",
-            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260729021013_0_VPFJ50_170000.xml"
+            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260729021013_0_VPFJ51_170000.xml"
           },
           "summary": "",
           "content": {
@@ -4403,12 +3941,12 @@
           }
         },
         {
-          "id": "https://www.data.jma.go.jp/developer/xml/data/20260729021946_0_VPFJ51_030000.xml",
-          "title": "府県気象解説情報",
+          "id": "https://www.data.jma.go.jp/developer/xml/data/20260729021946_0_VPFJ50_030000.xml",
+          "title": "府県気象情報",
           "updated": "2026-07-29T02:19:45Z",
           "link": {
             "@type": "application/xml",
-            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260729021946_0_VPFJ51_030000.xml"
+            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260729021946_0_VPFJ50_030000.xml"
           },
           "summary": "",
           "content": {
@@ -4417,12 +3955,12 @@
           }
         },
         {
-          "id": "https://www.data.jma.go.jp/developer/xml/data/20260729021946_0_VPFJ50_030000.xml",
-          "title": "府県気象情報",
+          "id": "https://www.data.jma.go.jp/developer/xml/data/20260729021946_0_VPFJ51_030000.xml",
+          "title": "府県気象解説情報",
           "updated": "2026-07-29T02:19:45Z",
           "link": {
             "@type": "application/xml",
-            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260729021946_0_VPFJ50_030000.xml"
+            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260729021946_0_VPFJ51_030000.xml"
           },
           "summary": "",
           "content": {
@@ -4445,20 +3983,6 @@
           }
         },
         {
-          "id": "https://www.data.jma.go.jp/developer/xml/data/20260729022106_0_VPWW54_040000.xml",
-          "title": "気象警報・注意報（Ｈ２７）",
-          "updated": "2026-07-29T02:21:05Z",
-          "link": {
-            "@type": "application/xml",
-            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260729022106_0_VPWW54_040000.xml"
-          },
-          "summary": "",
-          "content": {
-            "#text": "【宮城県気象警報・注意報】宮城県では、土砂災害に注意してください。",
-            "@type": "text"
-          }
-        },
-        {
           "id": "https://www.data.jma.go.jp/developer/xml/data/20260729022106_0_VPWW53_040000.xml",
           "title": "気象特別警報・警報・注意報",
           "updated": "2026-07-29T02:21:05Z",
@@ -4473,16 +3997,16 @@
           }
         },
         {
-          "id": "https://www.data.jma.go.jp/developer/xml/data/20260729022428_0_VPWW56_030000.xml",
-          "title": "気象警報・注意報（Ｒ０６）（土砂）",
-          "updated": "2026-07-29T02:24:27Z",
+          "id": "https://www.data.jma.go.jp/developer/xml/data/20260729022106_0_VPWW54_040000.xml",
+          "title": "気象警報・注意報（Ｈ２７）",
+          "updated": "2026-07-29T02:21:05Z",
           "link": {
             "@type": "application/xml",
-            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260729022428_0_VPWW56_030000.xml"
+            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260729022106_0_VPWW54_040000.xml"
           },
           "summary": "",
           "content": {
-            "#text": "【岩手県土砂災害警報・注意報】岩手県では、土砂災害に注意してください。",
+            "#text": "【宮城県気象警報・注意報】宮城県では、土砂災害に注意してください。",
             "@type": "text"
           }
         },
@@ -4497,6 +4021,20 @@
           "summary": "",
           "content": {
             "#text": "【岩手県大雨警報・注意報】内陸では、低い土地の浸水や河川の増水に注意してください。",
+            "@type": "text"
+          }
+        },
+        {
+          "id": "https://www.data.jma.go.jp/developer/xml/data/20260729022428_0_VPWW56_030000.xml",
+          "title": "気象警報・注意報（Ｒ０６）（土砂）",
+          "updated": "2026-07-29T02:24:27Z",
+          "link": {
+            "@type": "application/xml",
+            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260729022428_0_VPWW56_030000.xml"
+          },
+          "summary": "",
+          "content": {
+            "#text": "【岩手県土砂災害警報・注意報】岩手県では、土砂災害に注意してください。",
             "@type": "text"
           }
         },
@@ -4599,12 +4137,12 @@
           }
         },
         {
-          "id": "https://www.data.jma.go.jp/developer/xml/data/20260729023011_0_VPFJ51_400000.xml",
-          "title": "府県気象解説情報",
+          "id": "https://www.data.jma.go.jp/developer/xml/data/20260729023012_0_VPFJ50_400000.xml",
+          "title": "府県気象情報",
           "updated": "2026-07-29T02:30:11Z",
           "link": {
             "@type": "application/xml",
-            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260729023011_0_VPFJ51_400000.xml"
+            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260729023012_0_VPFJ50_400000.xml"
           },
           "summary": "",
           "content": {
@@ -4613,12 +4151,12 @@
           }
         },
         {
-          "id": "https://www.data.jma.go.jp/developer/xml/data/20260729023012_0_VPFJ50_400000.xml",
-          "title": "府県気象情報",
+          "id": "https://www.data.jma.go.jp/developer/xml/data/20260729023011_0_VPFJ51_400000.xml",
+          "title": "府県気象解説情報",
           "updated": "2026-07-29T02:30:11Z",
           "link": {
             "@type": "application/xml",
-            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260729023012_0_VPFJ50_400000.xml"
+            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260729023011_0_VPFJ51_400000.xml"
           },
           "summary": "",
           "content": {
@@ -4641,12 +4179,12 @@
           }
         },
         {
-          "id": "https://www.data.jma.go.jp/developer/xml/data/20260729023206_0_VPWW54_070000.xml",
-          "title": "気象警報・注意報（Ｈ２７）",
+          "id": "https://www.data.jma.go.jp/developer/xml/data/20260729023206_0_VPWW53_070000.xml",
+          "title": "気象特別警報・警報・注意報",
           "updated": "2026-07-29T02:32:05Z",
           "link": {
             "@type": "application/xml",
-            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260729023206_0_VPWW54_070000.xml"
+            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260729023206_0_VPWW53_070000.xml"
           },
           "summary": "",
           "content": {
@@ -4655,12 +4193,12 @@
           }
         },
         {
-          "id": "https://www.data.jma.go.jp/developer/xml/data/20260729023206_0_VPWW53_070000.xml",
-          "title": "気象特別警報・警報・注意報",
+          "id": "https://www.data.jma.go.jp/developer/xml/data/20260729023206_0_VPWW54_070000.xml",
+          "title": "気象警報・注意報（Ｈ２７）",
           "updated": "2026-07-29T02:32:05Z",
           "link": {
             "@type": "application/xml",
-            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260729023206_0_VPWW53_070000.xml"
+            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260729023206_0_VPWW54_070000.xml"
           },
           "summary": "",
           "content": {
@@ -4711,12 +4249,12 @@
           }
         },
         {
-          "id": "https://www.data.jma.go.jp/developer/xml/data/20260729025017_0_VPWW53_300000.xml",
-          "title": "気象特別警報・警報・注意報",
+          "id": "https://www.data.jma.go.jp/developer/xml/data/20260729025017_0_VPWW54_300000.xml",
+          "title": "気象警報・注意報（Ｈ２７）",
           "updated": "2026-07-29T02:50:16Z",
           "link": {
             "@type": "application/xml",
-            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260729025017_0_VPWW53_300000.xml"
+            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260729025017_0_VPWW54_300000.xml"
           },
           "summary": "",
           "content": {
@@ -4725,12 +4263,12 @@
           }
         },
         {
-          "id": "https://www.data.jma.go.jp/developer/xml/data/20260729025017_0_VPWW54_300000.xml",
-          "title": "気象警報・注意報（Ｈ２７）",
+          "id": "https://www.data.jma.go.jp/developer/xml/data/20260729025017_0_VPWW53_300000.xml",
+          "title": "気象特別警報・警報・注意報",
           "updated": "2026-07-29T02:50:16Z",
           "link": {
             "@type": "application/xml",
-            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260729025017_0_VPWW54_300000.xml"
+            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260729025017_0_VPWW53_300000.xml"
           },
           "summary": "",
           "content": {
@@ -4823,12 +4361,12 @@
           }
         },
         {
-          "id": "https://www.data.jma.go.jp/developer/xml/data/20260729031852_0_VPWW53_070000.xml",
-          "title": "気象特別警報・警報・注意報",
+          "id": "https://www.data.jma.go.jp/developer/xml/data/20260729031852_0_VPWW54_070000.xml",
+          "title": "気象警報・注意報（Ｈ２７）",
           "updated": "2026-07-29T03:18:51Z",
           "link": {
             "@type": "application/xml",
-            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260729031852_0_VPWW53_070000.xml"
+            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260729031852_0_VPWW54_070000.xml"
           },
           "summary": "",
           "content": {
@@ -4837,12 +4375,12 @@
           }
         },
         {
-          "id": "https://www.data.jma.go.jp/developer/xml/data/20260729031852_0_VPWW54_070000.xml",
-          "title": "気象警報・注意報（Ｈ２７）",
+          "id": "https://www.data.jma.go.jp/developer/xml/data/20260729031852_0_VPWW53_070000.xml",
+          "title": "気象特別警報・警報・注意報",
           "updated": "2026-07-29T03:18:51Z",
           "link": {
             "@type": "application/xml",
-            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260729031852_0_VPWW54_070000.xml"
+            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260729031852_0_VPWW53_070000.xml"
           },
           "summary": "",
           "content": {
@@ -5061,12 +4599,12 @@
           }
         },
         {
-          "id": "https://www.data.jma.go.jp/developer/xml/data/20260729032859_0_VPWW54_040000.xml",
-          "title": "気象警報・注意報（Ｈ２７）",
+          "id": "https://www.data.jma.go.jp/developer/xml/data/20260729032859_0_VPWW53_040000.xml",
+          "title": "気象特別警報・警報・注意報",
           "updated": "2026-07-29T03:28:58Z",
           "link": {
             "@type": "application/xml",
-            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260729032859_0_VPWW54_040000.xml"
+            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260729032859_0_VPWW53_040000.xml"
           },
           "summary": "",
           "content": {
@@ -5075,12 +4613,12 @@
           }
         },
         {
-          "id": "https://www.data.jma.go.jp/developer/xml/data/20260729032859_0_VPWW53_040000.xml",
-          "title": "気象特別警報・警報・注意報",
+          "id": "https://www.data.jma.go.jp/developer/xml/data/20260729032859_0_VPWW54_040000.xml",
+          "title": "気象警報・注意報（Ｈ２７）",
           "updated": "2026-07-29T03:28:58Z",
           "link": {
             "@type": "application/xml",
-            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260729032859_0_VPWW53_040000.xml"
+            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260729032859_0_VPWW54_040000.xml"
           },
           "summary": "",
           "content": {
@@ -5173,12 +4711,12 @@
           }
         },
         {
-          "id": "https://www.data.jma.go.jp/developer/xml/data/20260729035353_0_VPWW54_130000.xml",
-          "title": "気象警報・注意報（Ｈ２７）",
+          "id": "https://www.data.jma.go.jp/developer/xml/data/20260729035353_0_VPWW53_130000.xml",
+          "title": "気象特別警報・警報・注意報",
           "updated": "2026-07-29T03:53:51Z",
           "link": {
             "@type": "application/xml",
-            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260729035353_0_VPWW54_130000.xml"
+            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260729035353_0_VPWW53_130000.xml"
           },
           "summary": "",
           "content": {
@@ -5187,12 +4725,12 @@
           }
         },
         {
-          "id": "https://www.data.jma.go.jp/developer/xml/data/20260729035353_0_VPWW53_130000.xml",
-          "title": "気象特別警報・警報・注意報",
+          "id": "https://www.data.jma.go.jp/developer/xml/data/20260729035353_0_VPWW54_130000.xml",
+          "title": "気象警報・注意報（Ｈ２７）",
           "updated": "2026-07-29T03:53:51Z",
           "link": {
             "@type": "application/xml",
-            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260729035353_0_VPWW53_130000.xml"
+            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260729035353_0_VPWW54_130000.xml"
           },
           "summary": "",
           "content": {
@@ -5215,12 +4753,12 @@
           }
         },
         {
-          "id": "https://www.data.jma.go.jp/developer/xml/data/20260729040252_0_VPWW53_030000.xml",
-          "title": "気象特別警報・警報・注意報",
+          "id": "https://www.data.jma.go.jp/developer/xml/data/20260729040252_0_VPWW54_030000.xml",
+          "title": "気象警報・注意報（Ｈ２７）",
           "updated": "2026-07-29T04:02:51Z",
           "link": {
             "@type": "application/xml",
-            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260729040252_0_VPWW53_030000.xml"
+            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260729040252_0_VPWW54_030000.xml"
           },
           "summary": "",
           "content": {
@@ -5229,12 +4767,12 @@
           }
         },
         {
-          "id": "https://www.data.jma.go.jp/developer/xml/data/20260729040252_0_VPWW54_030000.xml",
-          "title": "気象警報・注意報（Ｈ２７）",
+          "id": "https://www.data.jma.go.jp/developer/xml/data/20260729040252_0_VPWW53_030000.xml",
+          "title": "気象特別警報・警報・注意報",
           "updated": "2026-07-29T04:02:51Z",
           "link": {
             "@type": "application/xml",
-            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260729040252_0_VPWW54_030000.xml"
+            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260729040252_0_VPWW53_030000.xml"
           },
           "summary": "",
           "content": {
@@ -5285,12 +4823,12 @@
           }
         },
         {
-          "id": "https://www.data.jma.go.jp/developer/xml/data/20260729042852_0_VPFJ50_130000.xml",
-          "title": "府県気象情報",
+          "id": "https://www.data.jma.go.jp/developer/xml/data/20260729042852_0_VPFJ51_130000.xml",
+          "title": "府県気象解説情報",
           "updated": "2026-07-29T04:28:52Z",
           "link": {
             "@type": "application/xml",
-            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260729042852_0_VPFJ50_130000.xml"
+            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260729042852_0_VPFJ51_130000.xml"
           },
           "summary": "",
           "content": {
@@ -5299,12 +4837,12 @@
           }
         },
         {
-          "id": "https://www.data.jma.go.jp/developer/xml/data/20260729042852_0_VPFJ51_130000.xml",
-          "title": "府県気象解説情報",
+          "id": "https://www.data.jma.go.jp/developer/xml/data/20260729042852_0_VPFJ50_130000.xml",
+          "title": "府県気象情報",
           "updated": "2026-07-29T04:28:52Z",
           "link": {
             "@type": "application/xml",
-            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260729042852_0_VPFJ51_130000.xml"
+            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260729042852_0_VPFJ50_130000.xml"
           },
           "summary": "",
           "content": {
@@ -5327,12 +4865,12 @@
           }
         },
         {
-          "id": "https://www.data.jma.go.jp/developer/xml/data/20260729045250_0_VPWW54_030000.xml",
-          "title": "気象警報・注意報（Ｈ２７）",
+          "id": "https://www.data.jma.go.jp/developer/xml/data/20260729045250_0_VPWW53_030000.xml",
+          "title": "気象特別警報・警報・注意報",
           "updated": "2026-07-29T04:52:48Z",
           "link": {
             "@type": "application/xml",
-            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260729045250_0_VPWW54_030000.xml"
+            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260729045250_0_VPWW53_030000.xml"
           },
           "summary": "",
           "content": {
@@ -5341,12 +4879,12 @@
           }
         },
         {
-          "id": "https://www.data.jma.go.jp/developer/xml/data/20260729045250_0_VPWW53_030000.xml",
-          "title": "気象特別警報・警報・注意報",
+          "id": "https://www.data.jma.go.jp/developer/xml/data/20260729045250_0_VPWW54_030000.xml",
+          "title": "気象警報・注意報（Ｈ２７）",
           "updated": "2026-07-29T04:52:48Z",
           "link": {
             "@type": "application/xml",
-            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260729045250_0_VPWW53_030000.xml"
+            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260729045250_0_VPWW54_030000.xml"
           },
           "summary": "",
           "content": {
@@ -5369,12 +4907,12 @@
           }
         },
         {
-          "id": "https://www.data.jma.go.jp/developer/xml/data/20260729045713_0_VPWW54_070000.xml",
-          "title": "気象警報・注意報（Ｈ２７）",
+          "id": "https://www.data.jma.go.jp/developer/xml/data/20260729045713_0_VPWW53_070000.xml",
+          "title": "気象特別警報・警報・注意報",
           "updated": "2026-07-29T04:57:11Z",
           "link": {
             "@type": "application/xml",
-            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260729045713_0_VPWW54_070000.xml"
+            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260729045713_0_VPWW53_070000.xml"
           },
           "summary": "",
           "content": {
@@ -5383,12 +4921,12 @@
           }
         },
         {
-          "id": "https://www.data.jma.go.jp/developer/xml/data/20260729045713_0_VPWW53_070000.xml",
-          "title": "気象特別警報・警報・注意報",
+          "id": "https://www.data.jma.go.jp/developer/xml/data/20260729045713_0_VPWW54_070000.xml",
+          "title": "気象警報・注意報（Ｈ２７）",
           "updated": "2026-07-29T04:57:11Z",
           "link": {
             "@type": "application/xml",
-            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260729045713_0_VPWW53_070000.xml"
+            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260729045713_0_VPWW54_070000.xml"
           },
           "summary": "",
           "content": {
@@ -5411,12 +4949,12 @@
           }
         },
         {
-          "id": "https://www.data.jma.go.jp/developer/xml/data/20260729050333_0_VPWW54_030000.xml",
-          "title": "気象警報・注意報（Ｈ２７）",
+          "id": "https://www.data.jma.go.jp/developer/xml/data/20260729050334_0_VPWW53_030000.xml",
+          "title": "気象特別警報・警報・注意報",
           "updated": "2026-07-29T05:03:32Z",
           "link": {
             "@type": "application/xml",
-            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260729050333_0_VPWW54_030000.xml"
+            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260729050334_0_VPWW53_030000.xml"
           },
           "summary": "",
           "content": {
@@ -5425,12 +4963,12 @@
           }
         },
         {
-          "id": "https://www.data.jma.go.jp/developer/xml/data/20260729050334_0_VPWW53_030000.xml",
-          "title": "気象特別警報・警報・注意報",
+          "id": "https://www.data.jma.go.jp/developer/xml/data/20260729050333_0_VPWW54_030000.xml",
+          "title": "気象警報・注意報（Ｈ２７）",
           "updated": "2026-07-29T05:03:32Z",
           "link": {
             "@type": "application/xml",
-            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260729050334_0_VPWW53_030000.xml"
+            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260729050333_0_VPWW54_030000.xml"
           },
           "summary": "",
           "content": {
@@ -5537,12 +5075,12 @@
           }
         },
         {
-          "id": "https://www.data.jma.go.jp/developer/xml/data/20260729054319_0_VPWW53_050000.xml",
-          "title": "気象特別警報・警報・注意報",
+          "id": "https://www.data.jma.go.jp/developer/xml/data/20260729054319_0_VPWW54_050000.xml",
+          "title": "気象警報・注意報（Ｈ２７）",
           "updated": "2026-07-29T05:43:18Z",
           "link": {
             "@type": "application/xml",
-            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260729054319_0_VPWW53_050000.xml"
+            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260729054319_0_VPWW54_050000.xml"
           },
           "summary": "",
           "content": {
@@ -5551,12 +5089,12 @@
           }
         },
         {
-          "id": "https://www.data.jma.go.jp/developer/xml/data/20260729054319_0_VPWW54_050000.xml",
-          "title": "気象警報・注意報（Ｈ２７）",
+          "id": "https://www.data.jma.go.jp/developer/xml/data/20260729054319_0_VPWW53_050000.xml",
+          "title": "気象特別警報・警報・注意報",
           "updated": "2026-07-29T05:43:18Z",
           "link": {
             "@type": "application/xml",
-            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260729054319_0_VPWW54_050000.xml"
+            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260729054319_0_VPWW53_050000.xml"
           },
           "summary": "",
           "content": {
@@ -5607,20 +5145,6 @@
           }
         },
         {
-          "id": "https://www.data.jma.go.jp/developer/xml/data/20260729055131_0_VPWW54_280000.xml",
-          "title": "気象警報・注意報（Ｈ２７）",
-          "updated": "2026-07-29T05:51:29Z",
-          "link": {
-            "@type": "application/xml",
-            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260729055131_0_VPWW54_280000.xml"
-          },
-          "summary": "",
-          "content": {
-            "#text": "【兵庫県気象警報・注意報】南部では、低い土地の浸水に注意してください。兵庫県では、落雷に注意してください。",
-            "@type": "text"
-          }
-        },
-        {
           "id": "https://www.data.jma.go.jp/developer/xml/data/20260729055131_0_VPWW53_280000.xml",
           "title": "気象特別警報・警報・注意報",
           "updated": "2026-07-29T05:51:29Z",
@@ -5635,16 +5159,16 @@
           }
         },
         {
-          "id": "https://www.data.jma.go.jp/developer/xml/data/20260729060012_0_VPCJ51_400000.xml",
-          "title": "地方気象解説情報",
-          "updated": "2026-07-29T06:00:12Z",
+          "id": "https://www.data.jma.go.jp/developer/xml/data/20260729055131_0_VPWW54_280000.xml",
+          "title": "気象警報・注意報（Ｈ２７）",
+          "updated": "2026-07-29T05:51:29Z",
           "link": {
             "@type": "application/xml",
-            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260729060012_0_VPCJ51_400000.xml"
+            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260729055131_0_VPWW54_280000.xml"
           },
           "summary": "",
           "content": {
-            "#text": "【九州北部地方（山口県を含む）気象解説情報（高温）】九州北部地方では、８月５日頃にかけて、最高気温が３５度以上となるところがあるでしょう。",
+            "#text": "【兵庫県気象警報・注意報】南部では、低い土地の浸水に注意してください。兵庫県では、落雷に注意してください。",
             "@type": "text"
           }
         },
@@ -5655,6 +5179,20 @@
           "link": {
             "@type": "application/xml",
             "@href": "https://www.data.jma.go.jp/developer/xml/data/20260729060012_0_VPCJ50_400000.xml"
+          },
+          "summary": "",
+          "content": {
+            "#text": "【九州北部地方（山口県を含む）気象解説情報（高温）】九州北部地方では、８月５日頃にかけて、最高気温が３５度以上となるところがあるでしょう。",
+            "@type": "text"
+          }
+        },
+        {
+          "id": "https://www.data.jma.go.jp/developer/xml/data/20260729060012_0_VPCJ51_400000.xml",
+          "title": "地方気象解説情報",
+          "updated": "2026-07-29T06:00:12Z",
+          "link": {
+            "@type": "application/xml",
+            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260729060012_0_VPCJ51_400000.xml"
           },
           "summary": "",
           "content": {
@@ -5747,12 +5285,12 @@
           }
         },
         {
-          "id": "https://www.data.jma.go.jp/developer/xml/data/20260729062203_0_VPWW53_280000.xml",
-          "title": "気象特別警報・警報・注意報",
+          "id": "https://www.data.jma.go.jp/developer/xml/data/20260729062203_0_VPWW54_280000.xml",
+          "title": "気象警報・注意報（Ｈ２７）",
           "updated": "2026-07-29T06:22:01Z",
           "link": {
             "@type": "application/xml",
-            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260729062203_0_VPWW53_280000.xml"
+            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260729062203_0_VPWW54_280000.xml"
           },
           "summary": "",
           "content": {
@@ -5761,12 +5299,12 @@
           }
         },
         {
-          "id": "https://www.data.jma.go.jp/developer/xml/data/20260729062203_0_VPWW54_280000.xml",
-          "title": "気象警報・注意報（Ｈ２７）",
+          "id": "https://www.data.jma.go.jp/developer/xml/data/20260729062203_0_VPWW53_280000.xml",
+          "title": "気象特別警報・警報・注意報",
           "updated": "2026-07-29T06:22:01Z",
           "link": {
             "@type": "application/xml",
-            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260729062203_0_VPWW54_280000.xml"
+            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260729062203_0_VPWW53_280000.xml"
           },
           "summary": "",
           "content": {
@@ -5815,29 +5353,393 @@
             "#text": "【兵庫県気象警報・注意報】南部では、低い土地の浸水に注意してください。兵庫県では、落雷に注意してください。",
             "@type": "text"
           }
+        },
+        {
+          "id": "https://www.data.jma.go.jp/developer/xml/data/20260729063020_0_VPWW56_310000.xml",
+          "title": "気象警報・注意報（Ｒ０６）（土砂）",
+          "updated": "2026-07-29T06:30:20Z",
+          "link": {
+            "@type": "application/xml",
+            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260729063020_0_VPWW56_310000.xml"
+          },
+          "summary": "",
+          "content": {
+            "#text": "【鳥取県土砂災害警報・注意報】注意報を解除します。",
+            "@type": "text"
+          }
+        },
+        {
+          "id": "https://www.data.jma.go.jp/developer/xml/data/20260729063107_0_VPWW53_310000.xml",
+          "title": "気象特別警報・警報・注意報",
+          "updated": "2026-07-29T06:31:06Z",
+          "link": {
+            "@type": "application/xml",
+            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260729063107_0_VPWW53_310000.xml"
+          },
+          "summary": "",
+          "content": {
+            "#text": "【鳥取県気象警報・注意報】鳥取県では、竜巻などの激しい突風や落雷に注意してください。",
+            "@type": "text"
+          }
+        },
+        {
+          "id": "https://www.data.jma.go.jp/developer/xml/data/20260729063107_0_VPWW54_310000.xml",
+          "title": "気象警報・注意報（Ｈ２７）",
+          "updated": "2026-07-29T06:31:06Z",
+          "link": {
+            "@type": "application/xml",
+            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260729063107_0_VPWW54_310000.xml"
+          },
+          "summary": "",
+          "content": {
+            "#text": "【鳥取県気象警報・注意報】鳥取県では、竜巻などの激しい突風や落雷に注意してください。",
+            "@type": "text"
+          }
+        },
+        {
+          "id": "https://www.data.jma.go.jp/developer/xml/data/20260729063339_0_VPWW61_016000.xml",
+          "title": "気象警報・注意報（Ｒ０６）（その他注意報）",
+          "updated": "2026-07-29T06:33:39Z",
+          "link": {
+            "@type": "application/xml",
+            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260729063339_0_VPWW61_016000.xml"
+          },
+          "summary": "",
+          "content": {
+            "#text": "【石狩・空知・後志地方雷・濃霧注意報】石狩、空知、後志地方では、急な強い雨や落雷、濃霧による視程障害に注意してください。",
+            "@type": "text"
+          }
+        },
+        {
+          "id": "https://www.data.jma.go.jp/developer/xml/data/20260729063347_0_VPWW54_016000.xml",
+          "title": "気象警報・注意報（Ｈ２７）",
+          "updated": "2026-07-29T06:33:46Z",
+          "link": {
+            "@type": "application/xml",
+            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260729063347_0_VPWW54_016000.xml"
+          },
+          "summary": "",
+          "content": {
+            "#text": "【石狩・空知・後志地方気象警報・注意報】石狩・空知・後志地方では、落雷や濃霧による視程障害に注意してください。",
+            "@type": "text"
+          }
+        },
+        {
+          "id": "https://www.data.jma.go.jp/developer/xml/data/20260729063347_0_VPWW53_016000.xml",
+          "title": "気象特別警報・警報・注意報",
+          "updated": "2026-07-29T06:33:46Z",
+          "link": {
+            "@type": "application/xml",
+            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260729063347_0_VPWW53_016000.xml"
+          },
+          "summary": "",
+          "content": {
+            "#text": "【石狩・空知・後志地方気象警報・注意報】石狩・空知・後志地方では、落雷や濃霧による視程障害に注意してください。",
+            "@type": "text"
+          }
+        },
+        {
+          "id": "https://www.data.jma.go.jp/developer/xml/data/20260729063504_0_VPWW54_270000.xml",
+          "title": "気象警報・注意報（Ｈ２７）",
+          "updated": "2026-07-29T06:35:03Z",
+          "link": {
+            "@type": "application/xml",
+            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260729063504_0_VPWW54_270000.xml"
+          },
+          "summary": "",
+          "content": {
+            "#text": "【大阪府気象警報・注意報】大阪府では、落雷に注意してください。",
+            "@type": "text"
+          }
+        },
+        {
+          "id": "https://www.data.jma.go.jp/developer/xml/data/20260729063504_0_VPWW53_270000.xml",
+          "title": "気象特別警報・警報・注意報",
+          "updated": "2026-07-29T06:35:03Z",
+          "link": {
+            "@type": "application/xml",
+            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260729063504_0_VPWW53_270000.xml"
+          },
+          "summary": "",
+          "content": {
+            "#text": "【大阪府気象警報・注意報】大阪府では、落雷に注意してください。",
+            "@type": "text"
+          }
+        },
+        {
+          "id": "https://www.data.jma.go.jp/developer/xml/data/20260729063609_0_VPWW61_012000.xml",
+          "title": "気象警報・注意報（Ｒ０６）（その他注意報）",
+          "updated": "2026-07-29T06:36:08Z",
+          "link": {
+            "@type": "application/xml",
+            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260729063609_0_VPWW61_012000.xml"
+          },
+          "summary": "",
+          "content": {
+            "#text": "【上川・留萌地方雷・濃霧注意報】上川、留萌地方では、急な強い雨や落雷、濃霧による視程障害に注意してください。",
+            "@type": "text"
+          }
+        },
+        {
+          "id": "https://www.data.jma.go.jp/developer/xml/data/20260729063615_0_VPWW53_012000.xml",
+          "title": "気象特別警報・警報・注意報",
+          "updated": "2026-07-29T06:36:14Z",
+          "link": {
+            "@type": "application/xml",
+            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260729063615_0_VPWW53_012000.xml"
+          },
+          "summary": "",
+          "content": {
+            "#text": "【上川・留萌地方気象警報・注意報】上川・留萌地方では、落雷や濃霧による視程障害に注意してください。",
+            "@type": "text"
+          }
+        },
+        {
+          "id": "https://www.data.jma.go.jp/developer/xml/data/20260729063615_0_VPWW54_012000.xml",
+          "title": "気象警報・注意報（Ｈ２７）",
+          "updated": "2026-07-29T06:36:14Z",
+          "link": {
+            "@type": "application/xml",
+            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260729063615_0_VPWW54_012000.xml"
+          },
+          "summary": "",
+          "content": {
+            "#text": "【上川・留萌地方気象警報・注意報】上川・留萌地方では、落雷や濃霧による視程障害に注意してください。",
+            "@type": "text"
+          }
+        },
+        {
+          "id": "https://www.data.jma.go.jp/developer/xml/data/20260729063924_0_VPWW55_270000.xml",
+          "title": "気象警報・注意報（Ｒ０６）（大雨）",
+          "updated": "2026-07-29T06:39:23Z",
+          "link": {
+            "@type": "application/xml",
+            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260729063924_0_VPWW55_270000.xml"
+          },
+          "summary": "",
+          "content": {
+            "#text": "【大阪府大雨警報・注意報】大阪府では、低い土地の浸水や河川の増水に注意してください。",
+            "@type": "text"
+          }
+        },
+        {
+          "id": "https://www.data.jma.go.jp/developer/xml/data/20260729063930_0_VPWW53_270000.xml",
+          "title": "気象特別警報・警報・注意報",
+          "updated": "2026-07-29T06:39:28Z",
+          "link": {
+            "@type": "application/xml",
+            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260729063930_0_VPWW53_270000.xml"
+          },
+          "summary": "",
+          "content": {
+            "#text": "【大阪府気象警報・注意報】大阪府では、低い土地の浸水や落雷に注意してください。",
+            "@type": "text"
+          }
+        },
+        {
+          "id": "https://www.data.jma.go.jp/developer/xml/data/20260729063930_0_VPWW54_270000.xml",
+          "title": "気象警報・注意報（Ｈ２７）",
+          "updated": "2026-07-29T06:39:28Z",
+          "link": {
+            "@type": "application/xml",
+            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260729063930_0_VPWW54_270000.xml"
+          },
+          "summary": "",
+          "content": {
+            "#text": "【大阪府気象警報・注意報】大阪府では、低い土地の浸水や落雷に注意してください。",
+            "@type": "text"
+          }
+        },
+        {
+          "id": "https://www.data.jma.go.jp/developer/xml/data/20260729064054_0_VPWW61_014100.xml",
+          "title": "気象警報・注意報（Ｒ０６）（その他注意報）",
+          "updated": "2026-07-29T06:40:53Z",
+          "link": {
+            "@type": "application/xml",
+            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260729064054_0_VPWW61_014100.xml"
+          },
+          "summary": "",
+          "content": {
+            "#text": "【釧路・根室地方濃霧注意報】根室、釧路地方では、濃霧による視程障害に注意してください。",
+            "@type": "text"
+          }
+        },
+        {
+          "id": "https://www.data.jma.go.jp/developer/xml/data/20260729064106_0_VPTW60_010000.xml",
+          "title": "台風解析・予報情報（５日予報）（Ｈ３０）",
+          "updated": "2026-07-29T06:41:05Z",
+          "link": {
+            "@type": "application/xml",
+            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260729064106_0_VPTW60_010000.xml"
+          },
+          "summary": "",
+          "content": {
+            "#text": "【台風解析・予報情報】",
+            "@type": "text"
+          }
+        },
+        {
+          "id": "https://www.data.jma.go.jp/developer/xml/data/20260729064114_0_VPWW53_014100.xml",
+          "title": "気象特別警報・警報・注意報",
+          "updated": "2026-07-29T06:41:13Z",
+          "link": {
+            "@type": "application/xml",
+            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260729064114_0_VPWW53_014100.xml"
+          },
+          "summary": "",
+          "content": {
+            "#text": "【釧路・根室地方気象警報・注意報】釧路・根室地方では、濃霧による視程障害に注意してください。",
+            "@type": "text"
+          }
+        },
+        {
+          "id": "https://www.data.jma.go.jp/developer/xml/data/20260729064114_0_VPWW54_014100.xml",
+          "title": "気象警報・注意報（Ｈ２７）",
+          "updated": "2026-07-29T06:41:13Z",
+          "link": {
+            "@type": "application/xml",
+            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260729064114_0_VPWW54_014100.xml"
+          },
+          "summary": "",
+          "content": {
+            "#text": "【釧路・根室地方気象警報・注意報】釧路・根室地方では、濃霧による視程障害に注意してください。",
+            "@type": "text"
+          }
+        },
+        {
+          "id": "https://www.data.jma.go.jp/developer/xml/data/20260729064215_0_VPWW61_011000.xml",
+          "title": "気象警報・注意報（Ｒ０６）（その他注意報）",
+          "updated": "2026-07-29T06:42:14Z",
+          "link": {
+            "@type": "application/xml",
+            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260729064215_0_VPWW61_011000.xml"
+          },
+          "summary": "",
+          "content": {
+            "#text": "【宗谷地方濃霧注意報】宗谷地方では、濃霧による視程障害に注意してください。",
+            "@type": "text"
+          }
+        },
+        {
+          "id": "https://www.data.jma.go.jp/developer/xml/data/20260729064227_0_VPWW54_011000.xml",
+          "title": "気象警報・注意報（Ｈ２７）",
+          "updated": "2026-07-29T06:42:26Z",
+          "link": {
+            "@type": "application/xml",
+            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260729064227_0_VPWW54_011000.xml"
+          },
+          "summary": "",
+          "content": {
+            "#text": "【宗谷地方気象警報・注意報】宗谷地方では、濃霧による視程障害に注意してください。",
+            "@type": "text"
+          }
+        },
+        {
+          "id": "https://www.data.jma.go.jp/developer/xml/data/20260729064227_0_VPWW53_011000.xml",
+          "title": "気象特別警報・警報・注意報",
+          "updated": "2026-07-29T06:42:26Z",
+          "link": {
+            "@type": "application/xml",
+            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260729064227_0_VPWW53_011000.xml"
+          },
+          "summary": "",
+          "content": {
+            "#text": "【宗谷地方気象警報・注意報】宗谷地方では、濃霧による視程障害に注意してください。",
+            "@type": "text"
+          }
+        },
+        {
+          "id": "https://www.data.jma.go.jp/developer/xml/data/20260729064500_0_VPTA50_010000.xml",
+          "title": "台風の暴風域に入る確率",
+          "updated": "2026-07-29T06:43:05Z",
+          "link": {
+            "@type": "application/xml",
+            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260729064500_0_VPTA50_010000.xml"
+          },
+          "summary": "",
+          "content": {
+            "#text": "【台風の暴風域に入る確率】",
+            "@type": "text"
+          }
+        },
+        {
+          "id": "https://www.data.jma.go.jp/developer/xml/data/20260729064811_0_VPWW61_014030.xml",
+          "title": "気象警報・注意報（Ｒ０６）（その他注意報）",
+          "updated": "2026-07-29T06:48:10Z",
+          "link": {
+            "@type": "application/xml",
+            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260729064811_0_VPWW61_014030.xml"
+          },
+          "summary": "",
+          "content": {
+            "#text": "【十勝地方濃霧注意報】十勝地方では、濃霧による視程障害に注意してください。",
+            "@type": "text"
+          }
+        },
+        {
+          "id": "https://www.data.jma.go.jp/developer/xml/data/20260729064818_0_VPWW53_014030.xml",
+          "title": "気象特別警報・警報・注意報",
+          "updated": "2026-07-29T06:48:17Z",
+          "link": {
+            "@type": "application/xml",
+            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260729064818_0_VPWW53_014030.xml"
+          },
+          "summary": "",
+          "content": {
+            "#text": "【十勝地方気象警報・注意報】十勝地方では、濃霧による視程障害に注意してください。",
+            "@type": "text"
+          }
+        },
+        {
+          "id": "https://www.data.jma.go.jp/developer/xml/data/20260729064818_0_VPWW54_014030.xml",
+          "title": "気象警報・注意報（Ｈ２７）",
+          "updated": "2026-07-29T06:48:17Z",
+          "link": {
+            "@type": "application/xml",
+            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260729064818_0_VPWW54_014030.xml"
+          },
+          "summary": "",
+          "content": {
+            "#text": "【十勝地方気象警報・注意報】十勝地方では、濃霧による視程障害に注意してください。",
+            "@type": "text"
+          }
+        },
+        {
+          "id": "https://www.data.jma.go.jp/developer/xml/data/20260729064825_0_VPCJ51_150000.xml",
+          "title": "地方気象解説情報",
+          "updated": "2026-07-29T06:48:24Z",
+          "link": {
+            "@type": "application/xml",
+            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260729064825_0_VPCJ51_150000.xml"
+          },
+          "summary": "",
+          "content": {
+            "#text": "【北陸地方気象解説情報（大雨・落雷・突風）】北陸地方では、３１日にかけて土砂災害や低い土地の浸水、河川の増水に注意・警戒してください。また、３０日夜遅くにかけて落雷や竜巻などの激しい突風、降ひょうに注意してください。",
+            "@type": "text"
+          }
+        },
+        {
+          "id": "https://www.data.jma.go.jp/developer/xml/data/20260729064825_0_VPCJ50_150000.xml",
+          "title": "地方気象情報",
+          "updated": "2026-07-29T06:48:24Z",
+          "link": {
+            "@type": "application/xml",
+            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260729064825_0_VPCJ50_150000.xml"
+          },
+          "summary": "",
+          "content": {
+            "#text": "【北陸地方気象解説情報（大雨・落雷・突風）】北陸地方では、３１日にかけて土砂災害や低い土地の浸水、河川の増水に注意・警戒してください。また、３０日夜遅くにかけて落雷や竜巻などの激しい突風、降ひょうに注意してください。",
+            "@type": "text"
+          }
         }
       ],
       "metadata": {}
     },
     {
       "feed": "eqvol",
-      "timestamp": "2026-07-29T06:27:40.199Z",
-      "count": 87,
+      "timestamp": "2026-07-29T06:55:43.695Z",
+      "count": 88,
       "entries": [
-        {
-          "id": "https://www.data.jma.go.jp/developer/xml/data/20260728201738_0_VXSE53_270000.xml",
-          "title": "震源・震度に関する情報",
-          "updated": "2026-07-28T20:17:38Z",
-          "link": {
-            "@type": "application/xml",
-            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260728201738_0_VXSE53_270000.xml"
-          },
-          "summary": "",
-          "content": {
-            "#text": "【震源・震度情報】２９日０５時１５分ころ、地震がありました。",
-            "@type": "text"
-          }
-        },
         {
           "id": "https://www.data.jma.go.jp/developer/xml/data/20260728205050_0_VXSE51_270000.xml",
           "title": "震度速報",
@@ -7041,13 +6943,41 @@
             "#text": "【震源・震度情報】２９日１５時０２分ころ、地震がありました。",
             "@type": "text"
           }
+        },
+        {
+          "id": "https://www.data.jma.go.jp/developer/xml/data/20260729062716_0_VXSE53_270000.xml",
+          "title": "震源・震度に関する情報",
+          "updated": "2026-07-29T06:27:16Z",
+          "link": {
+            "@type": "application/xml",
+            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260729062716_0_VXSE53_270000.xml"
+          },
+          "summary": "",
+          "content": {
+            "#text": "【震源・震度情報】２９日１５時２４分ころ、地震がありました。",
+            "@type": "text"
+          }
+        },
+        {
+          "id": "https://www.data.jma.go.jp/developer/xml/data/20260729063248_0_VXSE53_010000.xml",
+          "title": "震源・震度に関する情報",
+          "updated": "2026-07-29T06:32:48Z",
+          "link": {
+            "@type": "application/xml",
+            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260729063248_0_VXSE53_010000.xml"
+          },
+          "summary": "",
+          "content": {
+            "#text": "【震源・震度情報】２９日１５時２８分ころ、地震がありました。",
+            "@type": "text"
+          }
         }
       ],
       "metadata": {}
     },
     {
       "feed": "other",
-      "timestamp": "2026-07-29T06:27:40.561Z",
+      "timestamp": "2026-07-29T06:55:44.192Z",
       "count": 31,
       "entries": [
         {
@@ -7489,121 +7419,9 @@
     },
     {
       "feed": "regular",
-      "timestamp": "2026-07-29T06:27:41.256Z",
-      "count": 507,
+      "timestamp": "2026-07-29T06:55:44.235Z",
+      "count": 503,
       "entries": [
-        {
-          "id": "https://www.data.jma.go.jp/developer/xml/data/20260728202837_0_VPWP50_310000.xml",
-          "title": "気象警報・注意報時系列情報（Ｒ０６）",
-          "updated": "2026-07-28T20:27:28Z",
-          "link": {
-            "@type": "application/xml",
-            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260728202837_0_VPWP50_310000.xml"
-          },
-          "summary": "",
-          "content": {
-            "#text": "【鳥取県警戒・注意事項時系列情報】",
-            "@type": "text"
-          }
-        },
-        {
-          "id": "https://www.data.jma.go.jp/developer/xml/data/20260728203057_0_VPWS50_010000.xml",
-          "title": "気象警報・注意報（Ｒ０６）（集約通報）",
-          "updated": "2026-07-28T20:30:53Z",
-          "link": {
-            "@type": "application/xml",
-            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260728203057_0_VPWS50_010000.xml"
-          },
-          "summary": "",
-          "content": {
-            "#text": "【警戒・注意事項集約定時通報】",
-            "@type": "text"
-          }
-        },
-        {
-          "id": "https://www.data.jma.go.jp/developer/xml/data/20260728203331_0_VZSA60_010000.xml",
-          "title": "アジア太平洋地上実況図",
-          "updated": "2026-07-28T20:32:56Z",
-          "link": {
-            "@type": "application/xml",
-            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260728203331_0_VZSA60_010000.xml"
-          },
-          "summary": "",
-          "content": {
-            "#text": "【アジア太平洋地上実況図】",
-            "@type": "text"
-          }
-        },
-        {
-          "id": "https://www.data.jma.go.jp/developer/xml/data/20260728204054_0_VPWS50_010000.xml",
-          "title": "気象警報・注意報（Ｒ０６）（集約通報）",
-          "updated": "2026-07-28T20:40:51Z",
-          "link": {
-            "@type": "application/xml",
-            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260728204054_0_VPWS50_010000.xml"
-          },
-          "summary": "",
-          "content": {
-            "#text": "【警戒・注意事項集約定時通報】",
-            "@type": "text"
-          }
-        },
-        {
-          "id": "https://www.data.jma.go.jp/developer/xml/data/20260728204901_0_VZSF51_010000.xml",
-          "title": "地上４８時間予想図",
-          "updated": "2026-07-28T20:48:36Z",
-          "link": {
-            "@type": "application/xml",
-            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260728204901_0_VZSF51_010000.xml"
-          },
-          "summary": "",
-          "content": {
-            "#text": "【地上４８時間予想図】",
-            "@type": "text"
-          }
-        },
-        {
-          "id": "https://www.data.jma.go.jp/developer/xml/data/20260728204901_0_VZSF61_010000.xml",
-          "title": "アジア太平洋海上悪天４８時間予想図",
-          "updated": "2026-07-28T20:48:36Z",
-          "link": {
-            "@type": "application/xml",
-            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260728204901_0_VZSF61_010000.xml"
-          },
-          "summary": "",
-          "content": {
-            "#text": "【アジア太平洋海上悪天４８時間予想図】",
-            "@type": "text"
-          }
-        },
-        {
-          "id": "https://www.data.jma.go.jp/developer/xml/data/20260728205056_0_VPWS50_010000.xml",
-          "title": "気象警報・注意報（Ｒ０６）（集約通報）",
-          "updated": "2026-07-28T20:50:53Z",
-          "link": {
-            "@type": "application/xml",
-            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260728205056_0_VPWS50_010000.xml"
-          },
-          "summary": "",
-          "content": {
-            "#text": "【警戒・注意事項集約定時通報】",
-            "@type": "text"
-          }
-        },
-        {
-          "id": "https://www.data.jma.go.jp/developer/xml/data/20260728205124_0_VPWP50_150000.xml",
-          "title": "気象警報・注意報時系列情報（Ｒ０６）",
-          "updated": "2026-07-28T20:50:56Z",
-          "link": {
-            "@type": "application/xml",
-            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260728205124_0_VPWP50_150000.xml"
-          },
-          "summary": "",
-          "content": {
-            "#text": "【新潟県警戒・注意事項時系列情報】",
-            "@type": "text"
-          }
-        },
         {
           "id": "https://www.data.jma.go.jp/developer/xml/data/20260728205442_0_VPFD60_160000.xml",
           "title": "警報級の可能性（明日まで）",
@@ -14589,6 +14407,62 @@
             "#text": "【兵庫県警戒・注意事項時系列情報】",
             "@type": "text"
           }
+        },
+        {
+          "id": "https://www.data.jma.go.jp/developer/xml/data/20260729063053_0_VPWS50_010000.xml",
+          "title": "気象警報・注意報（Ｒ０６）（集約通報）",
+          "updated": "2026-07-29T06:30:51Z",
+          "link": {
+            "@type": "application/xml",
+            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260729063053_0_VPWS50_010000.xml"
+          },
+          "summary": "",
+          "content": {
+            "#text": "【警戒・注意事項集約定時通報】",
+            "@type": "text"
+          }
+        },
+        {
+          "id": "https://www.data.jma.go.jp/developer/xml/data/20260729063500_0_VPWP50_270000.xml",
+          "title": "気象警報・注意報時系列情報（Ｒ０６）",
+          "updated": "2026-07-29T06:34:16Z",
+          "link": {
+            "@type": "application/xml",
+            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260729063500_0_VPWP50_270000.xml"
+          },
+          "summary": "",
+          "content": {
+            "#text": "【大阪府警戒・注意事項時系列情報】",
+            "@type": "text"
+          }
+        },
+        {
+          "id": "https://www.data.jma.go.jp/developer/xml/data/20260729064102_0_VPWS50_010000.xml",
+          "title": "気象警報・注意報（Ｒ０６）（集約通報）",
+          "updated": "2026-07-29T06:40:59Z",
+          "link": {
+            "@type": "application/xml",
+            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260729064102_0_VPWS50_010000.xml"
+          },
+          "summary": "",
+          "content": {
+            "#text": "【警戒・注意事項集約定時通報】",
+            "@type": "text"
+          }
+        },
+        {
+          "id": "https://www.data.jma.go.jp/developer/xml/data/20260729065056_0_VPWS50_010000.xml",
+          "title": "気象警報・注意報（Ｒ０６）（集約通報）",
+          "updated": "2026-07-29T06:50:54Z",
+          "link": {
+            "@type": "application/xml",
+            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260729065056_0_VPWS50_010000.xml"
+          },
+          "summary": "",
+          "content": {
+            "#text": "【警戒・注意事項集約定時通報】",
+            "@type": "text"
+          }
         }
       ],
       "metadata": {}
@@ -14596,6 +14470,6 @@
   ],
   "summary": {
     "totalFeeds": 4,
-    "totalNewEntries": 1040
+    "totalNewEntries": 1031
   }
 }
