@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-07-29T06:55:44.235Z",
+  "timestamp": "2026-07-29T06:59:04.931Z",
   "feeds": [
     {
       "feed": "extra",
-      "timestamp": "2026-07-29T06:55:43.681Z",
+      "timestamp": "2026-07-29T06:59:04.385Z",
       "count": 409,
       "entries": [
         {
@@ -5737,65 +5737,9 @@
     },
     {
       "feed": "eqvol",
-      "timestamp": "2026-07-29T06:55:43.695Z",
-      "count": 88,
+      "timestamp": "2026-07-29T06:59:04.401Z",
+      "count": 85,
       "entries": [
-        {
-          "id": "https://www.data.jma.go.jp/developer/xml/data/20260728205050_0_VXSE51_270000.xml",
-          "title": "震度速報",
-          "updated": "2026-07-28T20:50:49Z",
-          "link": {
-            "@type": "application/xml",
-            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260728205050_0_VXSE51_270000.xml"
-          },
-          "summary": "",
-          "content": {
-            "#text": "【震度速報】２９日０５時４９分ころ、地震による強い揺れを感じました。震度３以上が観測された地域をお知らせします。",
-            "@type": "text"
-          }
-        },
-        {
-          "id": "https://www.data.jma.go.jp/developer/xml/data/20260728205140_0_VXSE52_270000.xml",
-          "title": "震源に関する情報",
-          "updated": "2026-07-28T20:51:40Z",
-          "link": {
-            "@type": "application/xml",
-            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260728205140_0_VXSE52_270000.xml"
-          },
-          "summary": "",
-          "content": {
-            "#text": "【震源に関する情報】きょう２９日０５時４９分ころ、地震がありました。",
-            "@type": "text"
-          }
-        },
-        {
-          "id": "https://www.data.jma.go.jp/developer/xml/data/20260728205250_0_VXSE53_270000.xml",
-          "title": "震源・震度に関する情報",
-          "updated": "2026-07-28T20:52:49Z",
-          "link": {
-            "@type": "application/xml",
-            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260728205250_0_VXSE53_270000.xml"
-          },
-          "summary": "",
-          "content": {
-            "#text": "【震源・震度情報】２９日０５時４９分ころ、地震がありました。",
-            "@type": "text"
-          }
-        },
-        {
-          "id": "https://www.data.jma.go.jp/developer/xml/data/20260728205638_0_VXSE53_010000.xml",
-          "title": "震源・震度に関する情報",
-          "updated": "2026-07-28T20:56:37Z",
-          "link": {
-            "@type": "application/xml",
-            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260728205638_0_VXSE53_010000.xml"
-          },
-          "summary": "",
-          "content": {
-            "#text": "【震源・震度情報】２９日０５時５４分ころ、地震がありました。",
-            "@type": "text"
-          }
-        },
         {
           "id": "https://www.data.jma.go.jp/developer/xml/data/20260728205859_0_VXSE53_270000.xml",
           "title": "震源・震度に関する情報",
@@ -6971,13 +6915,27 @@
             "#text": "【震源・震度情報】２９日１５時２８分ころ、地震がありました。",
             "@type": "text"
           }
+        },
+        {
+          "id": "https://www.data.jma.go.jp/developer/xml/data/20260729065801_0_VFVO52_400000.xml",
+          "title": "噴火に関する火山観測報",
+          "updated": "2026-07-29T06:58:01Z",
+          "link": {
+            "@type": "application/xml",
+            "@href": "https://www.data.jma.go.jp/developer/xml/data/20260729065801_0_VFVO52_400000.xml"
+          },
+          "summary": "",
+          "content": {
+            "#text": "【火山名　桜島　噴火に関する火山観測報】火　　山：桜島\n日　　時：2026年07月29日15時49分(290649UTC)\n現　　象：噴火",
+            "@type": "text"
+          }
         }
       ],
       "metadata": {}
     },
     {
       "feed": "other",
-      "timestamp": "2026-07-29T06:55:44.192Z",
+      "timestamp": "2026-07-29T06:59:04.893Z",
       "count": 31,
       "entries": [
         {
@@ -7419,7 +7377,7 @@
     },
     {
       "feed": "regular",
-      "timestamp": "2026-07-29T06:55:44.235Z",
+      "timestamp": "2026-07-29T06:59:04.931Z",
       "count": 503,
       "entries": [
         {
@@ -14470,6 +14428,6 @@
   ],
   "summary": {
     "totalFeeds": 4,
-    "totalNewEntries": 1031
+    "totalNewEntries": 1028
   }
 }
