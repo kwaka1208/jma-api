@@ -1,7 +1,7 @@
 # jma-api
 
 気象庁防災情報 XML（PULL型）から、整理済みの JSON API を自動生成するシステムです。  
-毎5分ごとに気象庁のフィードをポーリングし、新着の防災情報を取得・整理して REST API として公開します。
+毎分気象庁のフィードをポーリングし、新着の防災情報を取得・整理して REST API として公開します。
 
 ## 特徴
 
@@ -76,64 +76,107 @@ https://raw.githubusercontent.com/kwaka1208/jma-api/main/api/archive/{YYYY-MM}/{
 
 ```json
 {
-  "timestamp": "2026-07-29T10:15:00Z",
-  "feeds": [
+  "timestamp": "2026-07-29T10:15:00.000Z",
+  "immediate": [
     {
-      "feed": "extra",
-      "count": 12,
-      "entries": [
-        {
-          "id": "http://example.com/entry/1",
-          "title": "気象警報・注意報（Ｒ０６）（大雨）",
-          "updated": "2026-07-29T10:15:00Z",
-          "link": "http://example.com/report/1",
-          "published": "2026-07-29T10:15:00Z"
-        }
-      ]
+      "timestamp": "2026-07-29T10:13:00.000Z",
+      "reportId": "http://example.com/xml/20260729101300_0.xml",
+      "reportTitle": "津波警報",
+      "infoType": "発表",
+      "eventID": "e20260729101300",
+      "serialCount": 1,
+      "changes": {
+        "total": 1,
+        "added": 1,
+        "upgraded": 0,
+        "downgraded": 0,
+        "removed": 0
+      },
+      "areas": ["北海道", "青森県"]
     }
   ],
+  "digest": [],
+  "record": [],
   "summary": {
-    "totalFeeds": 4,
-    "totalNewEntries": 45
+    "total": 1,
+    "byLevel": {
+      "immediate": 1,
+      "digest": 0,
+      "record": 0
+    }
   }
 }
 ```
+
+### 各フィールドの説明
+
+| フィールド | 説明 |
+|-----------|------|
+| `timestamp` | JSON 生成時刻（UTC） |
+| `immediate` | 即時通知対象（特別警報、津波等） |
+| `digest` | 集約通知対象（警報クラス） |
+| `record` | 記録のみ（注意報、定時情報） |
+| `reportId` | 電文 XML の URL |
+| `reportTitle` | 情報名（「津波警報」など） |
+| `infoType` | 発表/訂正/取消/遅延 |
+| `eventID` | イベント ID（地震の続報は同一） |
+| `serialCount` | 同一イベントの続報数 |
+| `changes` | 前回状態からの変化（新規/格上げ/格下げ/解除） |
+| `areas` | 対象地域 |
 
 ## 実装の詳細
 
 ### Poller（`src/poller/index.js`）
 
-毎5分実行される GCP Cloud Scheduler から呼ばれます：
+毎分実行される GitHub Actions から呼ばれます：
 
 1. 4フィード（定時・随時・地震火山・その他）に条件付き GET
 2. 新着エントリを検出（ETag/Last-Modified で 304 Not Modified 判定）
-3. 重複排除（SHA-1 ハッシュで過去取得分を記録）
-4. JSON 生成
+3. 重複排除（URL ハッシュで過去取得分を記録）
 
 **重要**: Poller は電文**本体**を取りに行きません。電文本体の取得は Processor 側の責任です。毎分数十件流れるため、ここで直列取得するとタイムアウトします。
 
-### JSON 生成（`src/lib/json-builder.js`）
+### Processor（`src/processor/index.js`）
 
-Atom フィードを解析して JSON に変換：
+ポーラーが検出した新着エントリを処理します：
 
-- タイムスタンプ（UTC）
-- フィードごとのエントリ一覧
-- 統計情報（全フィード数、新着エントリ数）
+1. 電文 XML を http でダウンロード
+2. `fast-xml-parser` で解析
+3. 府県予報区ごとの状態差分を計算（new/upgraded/downgraded/removed）
+4. 深刻度に基づいて `immediate` / `digest` / `record` に分類
+5. EventID でグループ化（同一イベントの続報は serialCount で表現）
 
-### 重複排除（`src/lib/dedup.js`）
+### JSON 生成（`src/lib/api-builder.js`, `src/lib/json-builder.js`）
 
-entry の `id`（電文XMLのURL）を SHA-1 でハッシュし、過去に処理したかを判定。
+処理済み電文を JSON に変換：
+
+- `immediate`: 即時通知対象（特別警報、津波等）
+- `digest`: 集約通知対象（警報クラス）
+- `record`: 記録のみ（注意報、定時情報）
+- 状態差分と変化の履歴
+
+### 状態管理（`src/lib/state-manager.js`）
+
+府県予報区ごとの防災情報の現在状態を管理し、前回状態との差分を計算。
+重複通知を防ぎ、状態遷移（新規→格上げ→解除）を正確に検知するための核となるモジュール。
 
 ## GitHub Actions
 
 ### `poll-jma.yml`
 
 ```
-毎5分実行 (*/5 * * * *)
+毎分実行 (* * * * *)
 1. ノード環境セットアップ
 2. npm install
 3. node scripts/github-poll.js でデータ取得
+   - フィード条件付き GET
+   - 新着エントリ検出
+   - 重複排除
+   - 電文本体取得
+   - 状態差分計算
+   - 深刻度分類
 4. api/latest.json を commit & push
+5. api/archive/{YYYYMM}/{timestamp}.json にアーカイブ
 ```
 
 手動実行も可能（`workflow_dispatch`）。
